@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword is used to define a function in Python?",
+    "options": [
+      "def",
+      "function",
+      "func",
+      "define"
+    ],
+    "correctIndex": 0,
+    "explanation": "Python uses the 'def' keyword to define functions."
+  },
+  {
+    "id": 2,
+    "question": "What is the output of print(2 ** 3)?",
+    "options": [
+      "8",
+      "6",
+      "9",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "** is the exponentiation operator. 2³ = 8."
+  },
+  {
+    "id": 3,
+    "question": "Which data type is mutable in Python?",
+    "options": [
+      "List",
+      "String",
+      "Tuple",
+      "Integer"
+    ],
+    "correctIndex": 0,
+    "explanation": "Lists are mutable (can be changed after creation). Strings and tuples are immutable."
+  },
+  {
+    "id": 4,
+    "question": "What does the len() function do?",
+    "options": [
+      "Returns the number of items in an object",
+      "Converts to lowercase",
+      "Calculates length in cm",
+      "Returns the type"
+    ],
+    "correctIndex": 0,
+    "explanation": "len() returns the number of items in a sequence or collection (e.g., string, list)."
+  },
+  {
+    "id": 5,
+    "question": "What is the correct way to create a dictionary in Python?",
+    "options": [
+      "{'name': 'John', 'age': 20}",
+      "['name': 'John', 'age': 20]",
+      "('name': 'John', 'age': 20)",
+      "<name: 'John', age: 20>"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dictionaries use curly braces {} with key:value pairs separated by commas."
+  },
+  {
+    "id": 6,
+    "question": "Which loop is used when the number of iterations is known beforehand?",
+    "options": [
+      "for",
+      "while",
+      "do-while",
+      "repeat"
+    ],
+    "correctIndex": 0,
+    "explanation": "The for loop is typically used when you know how many times to iterate."
+  },
+  {
+    "id": 7,
+    "question": "What is the output of print(5 // 2)?",
+    "options": [
+      "2",
+      "2.5",
+      "3",
+      "2.0"
+    ],
+    "correctIndex": 0,
+    "explanation": "// is floor division. 5 // 2 = 2 (discards the decimal)."
+  },
+  {
+    "id": 8,
+    "question": "How do you write a single-line comment in Python?",
+    "options": [
+      "# comment",
+      "// comment",
+      "/* comment */",
+      "<!-- comment -->"
+    ],
+    "correctIndex": 0,
+    "explanation": "Python uses the # symbol for single-line comments."
+  },
+  {
+    "id": 9,
+    "question": "What does the append() method do on a list?",
+    "options": [
+      "Adds an element to the end",
+      "Removes the last element",
+      "Sorts the list",
+      "Reverses the list"
+    ],
+    "correctIndex": 0,
+    "explanation": "list.append(x) adds item x to the end of the list."
+  },
+  {
+    "id": 10,
+    "question": "Which function converts a string to an integer?",
+    "options": [
+      "int()",
+      "str()",
+      "float()",
+      "convert()"
+    ],
+    "correctIndex": 0,
+    "explanation": "int('42') converts the string '42' to the integer 42."
+  },
+  {
+    "id": 11,
+    "question": "What is the output of print(type([]))?",
+    "options": [
+      "<class 'list'>",
+      "<class 'tuple'>",
+      "<class 'array'>",
+      "<class 'dict'>"
+    ],
+    "correctIndex": 0,
+    "explanation": "[] creates an empty list, so type([]) returns <class 'list'>."
+  },
+  {
+    "id": 12,
+    "question": "Which statement is used to exit a loop prematurely?",
+    "options": [
+      "break",
+      "stop",
+      "exit",
+      "return"
+    ],
+    "correctIndex": 0,
+    "explanation": "break immediately terminates the current loop."
+  },
+  {
+    "id": 13,
+    "question": "What is the result of 'Hello' + 'World'?",
+    "options": [
+      "HelloWorld",
+      "Hello World",
+      "Hello+World",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "String concatenation joins the strings without adding a space: 'Hello' + 'World' = 'HelloWorld'."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is a valid variable name in Python?",
+    "options": [
+      "_myVar",
+      "2ndValue",
+      "my-var",
+      "my var"
+    ],
+    "correctIndex": 0,
+    "explanation": "Variable names can start with a letter or underscore. They cannot start with a number or contain spaces/hyphens."
+  },
+  {
+    "id": 15,
+    "question": "What does range(3) produce?",
+    "options": [
+      "0, 1, 2",
+      "1, 2, 3",
+      "0, 1, 2, 3",
+      "3, 2, 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "range(3) generates numbers from 0 up to (but not including) 3: 0, 1, 2."
+  },
+  {
+    "id": 16,
+    "question": "What is the output of print(3 == 3.0)?",
+    "options": [
+      "True",
+      "False",
+      "Error",
+      "None"
+    ],
+    "correctIndex": 0,
+    "explanation": "3 == 3.0 compares values, not types. Both equal 3, so True."
+  },
+  {
+    "id": 17,
+    "question": "Which method removes the last item from a list and returns it?",
+    "options": [
+      "pop()",
+      "remove()",
+      "delete()",
+      "discard()"
+    ],
+    "correctIndex": 0,
+    "explanation": "list.pop() removes and returns the last item (or item at given index)."
+  },
+  {
+    "id": 18,
+    "question": "What is the correct syntax for an if statement?",
+    "options": [
+      "if x > 0:",
+      "if x > 0 then:",
+      "if (x > 0)",
+      "if x > 0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Python if statements end with a colon and use indentation for the block."
+  },
+  {
+    "id": 19,
+    "question": "Which module is used to generate random numbers?",
+    "options": [
+      "random",
+      "math",
+      "statistics",
+      "numpy"
+    ],
+    "correctIndex": 0,
+    "explanation": "The random module provides functions like randint() and choice() for randomness."
+  },
+  {
+    "id": 20,
+    "question": "What is a tuple in Python?",
+    "options": [
+      "An ordered, immutable collection",
+      "An ordered, mutable collection",
+      "An unordered collection",
+      "A function type"
+    ],
+    "correctIndex": 0,
+    "explanation": "Tuples use parentheses () and are immutable — they cannot be changed after creation."
+  }
+]

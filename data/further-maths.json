@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Differentiate y = 3x⁴ + 2x³ - 5x + 7 with respect to x.",
+    "options": [
+      "12x³ + 6x² - 5",
+      "12x³ + 6x² - 5x",
+      "12x⁴ + 6x³ - 5",
+      "3x³ + 2x² - 5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Using the power rule: d/dx(xⁿ) = nxⁿ⁻¹. So 3·4x³ + 2·3x² - 5 = 12x³ + 6x² - 5."
+  },
+  {
+    "id": 2,
+    "question": "Find dy/dx if y = (2x + 1)(x - 3).",
+    "options": [
+      "4x - 5",
+      "4x + 5",
+      "2x - 5",
+      "4x - 6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Expand: y = 2x² - 5x - 3. Then dy/dx = 4x - 5."
+  },
+  {
+    "id": 3,
+    "question": "Differentiate y = (3x + 2)⁵ using the chain rule.",
+    "options": [
+      "5(3x + 2)⁴",
+      "15(3x + 2)⁴",
+      "3(3x + 2)⁴",
+      "15(3x + 2)⁵"
+    ],
+    "correctIndex": 1,
+    "explanation": "Chain rule: dy/dx = 5(3x+2)⁴ · 3 = 15(3x+2)⁴."
+  },
+  {
+    "id": 4,
+    "question": "If y = x² sin x, find dy/dx using the product rule.",
+    "options": [
+      "2x sin x + x² cos x",
+      "2x cos x + x² sin x",
+      "2x sin x - x² cos x",
+      "x² cos x - 2x sin x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Product rule: u'v + uv' = 2x·sin x + x²·cos x."
+  },
+  {
+    "id": 5,
+    "question": "Differentiate y = (x² + 1)/(x + 1) using the quotient rule.",
+    "options": [
+      "(x² + 2x - 1)/(x + 1)²",
+      "(2x² + 2x)/(x + 1)²",
+      "(x² - 1)/(x + 1)²",
+      "(2x)/(x + 1)²"
+    ],
+    "correctIndex": 0,
+    "explanation": "Quotient rule: [(2x)(x+1) - (x²+1)(1)]/(x+1)² = (x² + 2x - 1)/(x+1)²."
+  },
+  {
+    "id": 6,
+    "question": "Find the gradient of the curve y = x³ - 3x² at x = 2.",
+    "options": [
+      "0",
+      "4",
+      "-4",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "dy/dx = 3x² - 6x. At x=2: 3(4) - 12 = 0."
+  },
+  {
+    "id": 7,
+    "question": "If s = 4t³ - 2t² + 5t, find the velocity v = ds/dt at t = 1.",
+    "options": [
+      "11",
+      "7",
+      "13",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "v = ds/dt = 12t² - 4t + 5. At t=1: 12 - 4 + 5 = 13."
+  },
+  {
+    "id": 8,
+    "question": "Find the second derivative of y = 5x³ - 2x² + x.",
+    "options": [
+      "30x - 4",
+      "15x² - 4x + 1",
+      "30x² - 4",
+      "15x - 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "dy/dx = 15x² - 4x + 1. d²y/dx² = 30x - 4."
+  },
+  {
+    "id": 9,
+    "question": "Differentiate y = √x + 1/x with respect to x.",
+    "options": [
+      "1/(2√x) - 1/x²",
+      "1/√x - 1/x²",
+      "1/(2√x) + 1/x²",
+      "√x - 1/x²"
+    ],
+    "correctIndex": 0,
+    "explanation": "y = x^(½) + x⁻¹. dy/dx = ½x^(-½) - x⁻² = 1/(2√x) - 1/x²."
+  },
+  {
+    "id": 10,
+    "question": "If y = e^(2x), find dy/dx.",
+    "options": [
+      "2e^(2x)",
+      "e^(2x)",
+      "½e^(2x)",
+      "2xe^(2x)"
+    ],
+    "correctIndex": 0,
+    "explanation": "d/dx[e^(ax)] = a·e^(ax). Here a=2, so dy/dx = 2e^(2x)."
+  },
+  {
+    "id": 11,
+    "question": "Differentiate y = ln(3x + 1).",
+    "options": [
+      "3/(3x + 1)",
+      "1/(3x + 1)",
+      "3/(3x)",
+      "1/(3x)"
+    ],
+    "correctIndex": 0,
+    "explanation": "d/dx[ln(u)] = u'/u. u = 3x+1, u' = 3. So dy/dx = 3/(3x+1)."
+  },
+  {
+    "id": 12,
+    "question": "Find the value of x at which y = x² - 4x + 5 has a stationary point.",
+    "options": [
+      "x = 2",
+      "x = -2",
+      "x = 4",
+      "x = 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Stationary point where dy/dx = 0. dy/dx = 2x - 4 = 0 → x = 2."
+  },
+  {
+    "id": 13,
+    "question": "Determine the nature of the stationary point of y = x² - 4x + 5.",
+    "options": [
+      "Minimum",
+      "Maximum",
+      "Point of inflection",
+      "None"
+    ],
+    "correctIndex": 0,
+    "explanation": "d²y/dx² = 2 > 0, so the stationary point at x=2 is a minimum."
+  },
+  {
+    "id": 14,
+    "question": "Find the equation of the tangent to y = x² at the point (1, 1).",
+    "options": [
+      "y = 2x - 1",
+      "y = 2x + 1",
+      "y = x - 1",
+      "y = x + 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "dy/dx = 2x. At x=1, gradient m=2. Tangent: y - 1 = 2(x - 1) → y = 2x - 1."
+  },
+  {
+    "id": 15,
+    "question": "If y = sin(3x), find dy/dx.",
+    "options": [
+      "3 cos(3x)",
+      "cos(3x)",
+      "-3 cos(3x)",
+      "3 sin(3x)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chain rule: d/dx[sin(ax)] = a·cos(ax). So dy/dx = 3 cos(3x)."
+  },
+  {
+    "id": 16,
+    "question": "Differentiate y = cos(x²).",
+    "options": [
+      "-2x sin(x²)",
+      "-sin(x²)",
+      "2x sin(x²)",
+      "-2x cos(x²)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chain rule: dy/dx = -sin(x²) · 2x = -2x sin(x²)."
+  },
+  {
+    "id": 17,
+    "question": "Find the rate of change of the area A = πr² of a circle with respect to r when r = 3.",
+    "options": [
+      "6π",
+      "9π",
+      "3π",
+      "18π"
+    ],
+    "correctIndex": 0,
+    "explanation": "dA/dr = 2πr. At r=3: 2π(3) = 6π."
+  },
+  {
+    "id": 18,
+    "question": "If y = tan x, find dy/dx.",
+    "options": [
+      "sec² x",
+      "sec x tan x",
+      "-sec² x",
+      "cosec² x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard result: d/dx(tan x) = sec² x."
+  },
+  {
+    "id": 19,
+    "question": "Differentiate y = x⁻³.",
+    "options": [
+      "-3x⁻⁴",
+      "-3x⁻²",
+      "3x⁻⁴",
+      "-x⁻⁴"
+    ],
+    "correctIndex": 0,
+    "explanation": "Power rule: dy/dx = -3x⁻⁴."
+  },
+  {
+    "id": 20,
+    "question": "Find the maximum value of y = 4x - x².",
+    "options": [
+      "4",
+      "2",
+      "8",
+      "16"
+    ],
+    "correctIndex": 0,
+    "explanation": "dy/dx = 4 - 2x = 0 → x = 2. y = 4(2) - 4 = 4. d²y/dx² = -2 < 0, so maximum value is 4."
+  },
+  {
+    "id": 21,
+    "question": "Evaluate ∫(3x² + 4x + 1) dx.",
+    "options": [
+      "x³ + 2x² + x + C",
+      "3x³ + 2x² + x + C",
+      "x³ + 2x² + C",
+      "6x + 4 + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫3x² dx = x³, ∫4x dx = 2x², ∫1 dx = x. So x³ + 2x² + x + C."
+  },
+  {
+    "id": 22,
+    "question": "Find ∫(1/x) dx.",
+    "options": [
+      "ln|x| + C",
+      "x⁻¹ + C",
+      "ln(x²) + C",
+      "1/x² + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard integral: ∫(1/x)dx = ln|x| + C."
+  },
+  {
+    "id": 23,
+    "question": "Evaluate ∫₂³ (2x + 1) dx.",
+    "options": [
+      "6",
+      "8",
+      "10",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "[x² + x]₂³ = (9+3) - (4+2) = 12 - 6 = 6."
+  },
+  {
+    "id": 24,
+    "question": "Find ∫e^(4x) dx.",
+    "options": [
+      "¼e^(4x) + C",
+      "e^(4x) + C",
+      "4e^(4x) + C",
+      "e^(4x)/x + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫e^(ax)dx = (1/a)e^(ax) + C. Here a=4, so ¼e^(4x) + C."
+  },
+  {
+    "id": 25,
+    "question": "Evaluate ∫₀^(π/2) cos x dx.",
+    "options": [
+      "1",
+      "0",
+      "-1",
+      "½"
+    ],
+    "correctIndex": 0,
+    "explanation": "[sin x]₀^(π/2) = sin(π/2) - sin(0) = 1 - 0 = 1."
+  },
+  {
+    "id": 26,
+    "question": "Find ∫sin(2x) dx.",
+    "options": [
+      "-½cos(2x) + C",
+      "-cos(2x) + C",
+      "½cos(2x) + C",
+      "cos(2x) + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫sin(ax)dx = -(1/a)cos(ax) + C. So -½cos(2x) + C."
+  },
+  {
+    "id": 27,
+    "question": "Evaluate ∫(x + 1)² dx.",
+    "options": [
+      "(x+1)³/3 + C",
+      "2(x+1) + C",
+      "(x+1)³ + C",
+      "x³/3 + x² + x + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫u² du = u³/3. Let u = x+1, so (x+1)³/3 + C."
+  },
+  {
+    "id": 28,
+    "question": "Find the area under y = 2x + 1 from x = 0 to x = 2.",
+    "options": [
+      "6",
+      "5",
+      "4",
+      "8"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫₀² (2x+1)dx = [x²+x]₀² = 4+2 = 6."
+  },
+  {
+    "id": 29,
+    "question": "Evaluate ∫(3/x²) dx.",
+    "options": [
+      "-3/x + C",
+      "3/x + C",
+      "-3/x² + C",
+      "3ln|x| + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫3x⁻² dx = 3·(x⁻¹/-1) = -3/x + C."
+  },
+  {
+    "id": 30,
+    "question": "Find ∫sec² x dx.",
+    "options": [
+      "tan x + C",
+      "sec x + C",
+      "cot x + C",
+      "cos x + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard integral: ∫sec² x dx = tan x + C."
+  },
+  {
+    "id": 31,
+    "question": "Evaluate ∫₁² (x² + 1/x) dx.",
+    "options": [
+      "7/3 + ln 2",
+      "7/3 - ln 2",
+      "5/3 + ln 2",
+      "8/3 + ln 2"
+    ],
+    "correctIndex": 0,
+    "explanation": "[x³/3 + ln|x|]₁² = (8/3 + ln2) - (1/3 + 0) = 7/3 + ln 2."
+  },
+  {
+    "id": 32,
+    "question": "Find ∫x·e^(x²) dx using substitution.",
+    "options": [
+      "½e^(x²) + C",
+      "e^(x²) + C",
+      "2e^(x²) + C",
+      "xe^(x²) + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let u = x², du = 2x dx. ∫x·e^(x²)dx = ½∫e^u du = ½e^(x²) + C."
+  },
+  {
+    "id": 33,
+    "question": "Evaluate ∫₀¹ x(1 + x) dx.",
+    "options": [
+      "5/6",
+      "1/6",
+      "2/3",
+      "1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫₀¹ (x + x²)dx = [x²/2 + x³/3]₀¹ = ½ + ⅓ = 5/6."
+  },
+  {
+    "id": 34,
+    "question": "Find ∫(2x + 3)⁴ dx.",
+    "options": [
+      "(2x+3)⁵/10 + C",
+      "(2x+3)⁵/5 + C",
+      "2(2x+3)⁵/5 + C",
+      "(2x+3)⁵/2 + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let u=2x+3, du=2dx. ∫u⁴·(du/2) = u⁵/10 + C = (2x+3)⁵/10 + C."
+  },
+  {
+    "id": 35,
+    "question": "Evaluate ∫(sin x + cos x) dx.",
+    "options": [
+      "-cos x + sin x + C",
+      "cos x + sin x + C",
+      "-cos x - sin x + C",
+      "cos x - sin x + C"
+    ],
+    "correctIndex": 0,
+    "explanation": "∫sin x dx = -cos x, ∫cos x dx = sin x. So -cos x + sin x + C."
+  },
+  {
+    "id": 36,
+    "question": "If A = [[1, 2], [3, 4]], find det(A).",
+    "options": [
+      "-2",
+      "2",
+      "10",
+      "-10"
+    ],
+    "correctIndex": 0,
+    "explanation": "det(A) = (1)(4) - (2)(3) = 4 - 6 = -2."
+  },
+  {
+    "id": 37,
+    "question": "Find the inverse of [[2, 0], [0, 3]].",
+    "options": [
+      "[[½, 0], [0, ⅓]]",
+      "[[3, 0], [0, 2]]",
+      "[[-2, 0], [0, -3]]",
+      "[[2, 0], [0, 3]]"
+    ],
+    "correctIndex": 0,
+    "explanation": "For diagonal matrix, inverse has reciprocal diagonal entries: [[½, 0], [0, ⅓]]."
+  },
+  {
+    "id": 38,
+    "question": "If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 3]], find AB (element 1,1).",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "(AB)₁₁ = (1)(2) + (2)(1) = 2 + 2 = 4."
+  },
+  {
+    "id": 39,
+    "question": "Solve for x and y: 2x + 3y = 7 and x - y = 1 using matrices.",
+    "options": [
+      "x=2, y=1",
+      "x=1, y=2",
+      "x=3, y=1",
+      "x=2, y=3"
+    ],
+    "correctIndex": 0,
+    "explanation": "From second eq: x = y+1. Substitute: 2(y+1)+3y=7 → 5y=5 → y=1, x=2."
+  },
+  {
+    "id": 40,
+    "question": "Find the transpose of [[1, 2, 3], [4, 5, 6]].",
+    "options": [
+      "[[1,4],[2,5],[3,6]]",
+      "[[1,2,3],[4,5,6]]",
+      "[[3,6],[2,5],[1,4]]",
+      "[[6,5,4],[3,2,1]]"
+    ],
+    "correctIndex": 0,
+    "explanation": "Transpose swaps rows and columns. 2×3 becomes 3×2 with rows becoming columns."
+  },
+  {
+    "id": 41,
+    "question": "If I is the 2×2 identity matrix, what is I²?",
+    "options": [
+      "I",
+      "2I",
+      "0",
+      "[[1,1],[1,1]]"
+    ],
+    "correctIndex": 0,
+    "explanation": "I² = I·I = I for any identity matrix."
+  },
+  {
+    "id": 42,
+    "question": "Find the trace of [[5, 1], [2, 3]].",
+    "options": [
+      "8",
+      "7",
+      "6",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "Trace = sum of diagonal elements = 5 + 3 = 8."
+  },
+  {
+    "id": 43,
+    "question": "If A = [[2, 1], [1, 2]], find A².",
+    "options": [
+      "[[5,4],[4,5]]",
+      "[[4,1],[1,4]]",
+      "[[4,2],[2,4]]",
+      "[[5,2],[2,5]]"
+    ],
+    "correctIndex": 0,
+    "explanation": "A² = [[2·2+1·1, 2·1+1·2], [1·2+2·1, 1·1+2·2]] = [[5,4],[4,5]]."
+  },
+  {
+    "id": 44,
+    "question": "For what value of k is [[2, k], [4, 6]] singular?",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "Singular means det=0: 2(6) - k(4) = 0 → 12 = 4k → k = 3."
+  },
+  {
+    "id": 45,
+    "question": "If det(A) = 5, what is det(2A) for a 2×2 matrix A?",
+    "options": [
+      "20",
+      "10",
+      "25",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "det(kA) = kⁿ·det(A) for n×n matrix. Here n=2, so det(2A) = 4·5 = 20."
+  },
+  {
+    "id": 46,
+    "question": "Solve the system using Cramer's rule: 3x + 2y = 12, x + y = 5.",
+    "options": [
+      "x=2, y=3",
+      "x=3, y=2",
+      "x=1, y=4",
+      "x=4, y=1"
+    ],
+    "correctIndex": 0,
+    "explanation": "D=3(1)-2(1)=1. Dx=12(1)-2(5)=2. Dy=3(5)-12(1)=3. So x=2, y=3."
+  },
+  {
+    "id": 47,
+    "question": "If A is a 3×2 matrix and B is a 2×4 matrix, what is the order of AB?",
+    "options": [
+      "3×4",
+      "2×2",
+      "3×2",
+      "4×3"
+    ],
+    "correctIndex": 0,
+    "explanation": "For matrix multiplication, (m×n)(n×p) = m×p. So 3×4."
+  },
+  {
+    "id": 48,
+    "question": "Simplify (3 + 2i) + (1 - 4i).",
+    "options": [
+      "4 - 2i",
+      "4 + 2i",
+      "2 - 2i",
+      "4 - 6i"
+    ],
+    "correctIndex": 0,
+    "explanation": "Add real parts: 3+1=4. Add imaginary parts: 2i-4i=-2i. Result: 4-2i."
+  },
+  {
+    "id": 49,
+    "question": "Find the product (2 + i)(3 - 2i).",
+    "options": [
+      "8 - i",
+      "8 + i",
+      "6 - 2i",
+      "4 - i"
+    ],
+    "correctIndex": 0,
+    "explanation": "(2+i)(3-2i) = 6 - 4i + 3i - 2i² = 6 - i + 2 = 8 - i."
+  },
+  {
+    "id": 50,
+    "question": "If z = 3 + 4i, find |z|.",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "√7"
+    ],
+    "correctIndex": 0,
+    "explanation": "|z| = √(3² + 4²) = √25 = 5."
+  },
+  {
+    "id": 51,
+    "question": "Find the complex conjugate of 5 - 3i.",
+    "options": [
+      "5 + 3i",
+      "-5 + 3i",
+      "5 - 3i",
+      "-5 - 3i"
+    ],
+    "correctIndex": 0,
+    "explanation": "Complex conjugate changes the sign of the imaginary part: 5 + 3i."
+  },
+  {
+    "id": 52,
+    "question": "Express z = 1 + i in polar form.",
+    "options": [
+      "√2(cos π/4 + i sin π/4)",
+      "√2(cos π/2 + i sin π/2)",
+      "2(cos π/4 + i sin π/4)",
+      "cos π/4 + i sin π/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "r = √(1²+1²) = √2. θ = arctan(1/1) = π/4. So √2(cos π/4 + i sin π/4)."
+  },
+  {
+    "id": 53,
+    "question": "Evaluate i¹².",
+    "options": [
+      "1",
+      "-1",
+      "i",
+      "-i"
+    ],
+    "correctIndex": 0,
+    "explanation": "i⁴ = 1, so i¹² = (i⁴)³ = 1³ = 1."
+  },
+  {
+    "id": 54,
+    "question": "If z = 2(cos 30° + i sin 30°), find z² using De Moivre's theorem.",
+    "options": [
+      "4(cos 60° + i sin 60°)",
+      "2(cos 60° + i sin 60°)",
+      "4(cos 30° + i sin 30°)",
+      "4(cos 90° + i sin 90°)"
+    ],
+    "correctIndex": 0,
+    "explanation": "De Moivre: zⁿ = rⁿ(cos nθ + i sin nθ). z² = 4(cos 60° + i sin 60°)."
+  },
+  {
+    "id": 55,
+    "question": "Simplify (1 + i)/(1 - i).",
+    "options": [
+      "i",
+      "-i",
+      "1",
+      "-1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply top and bottom by (1+i): (1+i)²/(1-i²) = (1+2i+i²)/2 = 2i/2 = i."
+  },
+  {
+    "id": 56,
+    "question": "Find the real part of (2 + 3i)(1 - 2i).",
+    "options": [
+      "8",
+      "-4",
+      "2",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "(2+3i)(1-2i) = 2 - 4i + 3i - 6i² = 2 - i + 6 = 8 - i. Real part = 8."
+  },
+  {
+    "id": 57,
+    "question": "If z₁ = 1 + i and z₂ = 2 - i, find z₁/z₂.",
+    "options": [
+      "(1 + 3i)/5",
+      "(3 + i)/5",
+      "(3 - i)/5",
+      "(1 - 3i)/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiply by conjugate (2+i): (1+i)(2+i)/(4+1) = (2+i+2i+i²)/5 = (1+3i)/5."
+  },
+  {
+    "id": 58,
+    "question": "If a = (2, 3) and b = (1, -2), find a + b.",
+    "options": [
+      "(3, 1)",
+      "(3, -1)",
+      "(1, 5)",
+      "(2, 1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Add components: (2+1, 3+(-2)) = (3, 1)."
+  },
+  {
+    "id": 59,
+    "question": "Find the magnitude of vector v = (3, 4).",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "√7"
+    ],
+    "correctIndex": 0,
+    "explanation": "|v| = √(3² + 4²) = √25 = 5."
+  },
+  {
+    "id": 60,
+    "question": "If a = (1, 2, 3) and b = (2, -1, 1), find a · b.",
+    "options": [
+      "3",
+      "6",
+      "7",
+      "5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Dot product: 1(2) + 2(-1) + 3(1) = 2 - 2 + 3 = 3."
+  },
+  {
+    "id": 61,
+    "question": "Find the angle between vectors a = (1, 0) and b = (0, 1).",
+    "options": [
+      "90°",
+      "0°",
+      "45°",
+      "180°"
+    ],
+    "correctIndex": 0,
+    "explanation": "a·b = 0. |a|=|b|=1. cos θ = 0 → θ = 90°."
+  },
+  {
+    "id": 62,
+    "question": "If |a| = 3, |b| = 4 and a · b = 6, find the angle between a and b.",
+    "options": [
+      "60°",
+      "30°",
+      "45°",
+      "90°"
+    ],
+    "correctIndex": 0,
+    "explanation": "cos θ = (a·b)/(|a||b|) = 6/12 = ½. So θ = 60°."
+  },
+  {
+    "id": 63,
+    "question": "Find the cross product of (1, 0, 0) and (0, 1, 0).",
+    "options": [
+      "(0, 0, 1)",
+      "(1, 1, 0)",
+      "(0, 0, -1)",
+      "(1, 0, 1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "i×j = k = (0,0,1)."
+  },
+  {
+    "id": 64,
+    "question": "If u = (2, -1) and v = (1, 3), find 2u - v.",
+    "options": [
+      "(3, -5)",
+      "(3, 5)",
+      "(4, -2)",
+      "(1, -4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "2u = (4, -2). 2u - v = (4-1, -2-3) = (3, -5)."
+  },
+  {
+    "id": 65,
+    "question": "Find the unit vector in the direction of (3, 4).",
+    "options": [
+      "(3/5, 4/5)",
+      "(3, 4)",
+      "(1, 1)",
+      "(¾, 1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Unit vector = (3,4)/5 = (3/5, 4/5)."
+  },
+  {
+    "id": 66,
+    "question": "If a = (1, 2) and b = (3, 1), find the scalar projection of a on b.",
+    "options": [
+      "√10/2",
+      "5/√10",
+      "3",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Scalar projection = (a·b)/|b| = (3+2)/√10 = 5/√10 = √10/2 after rationalizing. Wait, 5/√10 = 5√10/10 = √10/2. Correct."
+  },
+  {
+    "id": 67,
+    "question": "Find the vector equation of the line through (1, 2) parallel to (3, 1).",
+    "options": [
+      "r = (1,2) + t(3,1)",
+      "r = (3,1) + t(1,2)",
+      "r = (1,2) + (3,1)",
+      "r = t(1,2) + (3,1)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Vector equation: r = a + tb where a is a point and b is direction vector."
+  },
+  {
+    "id": 68,
+    "question": "Find the focus of the parabola y² = 8x.",
+    "options": [
+      "(2, 0)",
+      "(4, 0)",
+      "(8, 0)",
+      "(2, 2)"
+    ],
+    "correctIndex": 0,
+    "explanation": "y² = 4ax → 4a = 8 → a = 2. Focus is at (a, 0) = (2, 0)."
+  },
+  {
+    "id": 69,
+    "question": "What is the eccentricity of a circle?",
+    "options": [
+      "0",
+      "1",
+      "½",
+      "∞"
+    ],
+    "correctIndex": 0,
+    "explanation": "A circle has eccentricity e = 0."
+  },
+  {
+    "id": 70,
+    "question": "Find the equation of the ellipse with semi-major axis 5 and semi-minor axis 3.",
+    "options": [
+      "x²/25 + y²/9 = 1",
+      "x²/9 + y²/25 = 1",
+      "x²/5 + y²/3 = 1",
+      "x²/25 - y²/9 = 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Standard form: x²/a² + y²/b² = 1 where a=5, b=3. So x²/25 + y²/9 = 1."
+  },
+  {
+    "id": 71,
+    "question": "Find the directrix of the parabola x² = 4y.",
+    "options": [
+      "y = -1",
+      "y = 1",
+      "x = -1",
+      "y = -4"
+    ],
+    "correctIndex": 0,
+    "explanation": "x² = 4ay → 4a = 4 → a = 1. Directrix is y = -a = -1."
+  },
+  {
+    "id": 72,
+    "question": "What is the eccentricity of the hyperbola x²/9 - y²/16 = 1?",
+    "options": [
+      "5/3",
+      "3/5",
+      "4/3",
+      "5/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "a²=9, b²=16. c²=a²+b²=25, c=5. e=c/a=5/3."
+  },
+  {
+    "id": 73,
+    "question": "Find the foci of the ellipse x²/25 + y²/9 = 1.",
+    "options": [
+      "(±4, 0)",
+      "(±5, 0)",
+      "(±3, 0)",
+      "(0, ±4)"
+    ],
+    "correctIndex": 0,
+    "explanation": "a²=25, b²=9. c²=25-9=16, c=4. Foci at (±4, 0)."
+  },
+  {
+    "id": 74,
+    "question": "The parabola y = x² - 4x + 5 has its vertex at:",
+    "options": [
+      "(2, 1)",
+      "(2, 5)",
+      "(4, 5)",
+      "(0, 5)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Complete square: y = (x-2)² + 1. Vertex at (2, 1)."
+  },
+  {
+    "id": 75,
+    "question": "Find the asymptotes of the hyperbola x²/4 - y²/9 = 1.",
+    "options": [
+      "y = ±(3/2)x",
+      "y = ±(2/3)x",
+      "y = ±3x",
+      "y = ±2x"
+    ],
+    "correctIndex": 0,
+    "explanation": "Asymptotes: y = ±(b/a)x = ±(3/2)x."
+  },
+  {
+    "id": 76,
+    "question": "Evaluate ⁵P₃.",
+    "options": [
+      "60",
+      "20",
+      "10",
+      "120"
+    ],
+    "correctIndex": 0,
+    "explanation": "⁵P₃ = 5!/(5-3)! = 5·4·3 = 60."
+  },
+  {
+    "id": 77,
+    "question": "Evaluate ⁶C₂.",
+    "options": [
+      "15",
+      "30",
+      "12",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "⁶C₂ = 6!/(2!·4!) = (6·5)/2 = 15."
+  },
+  {
+    "id": 78,
+    "question": "In how many ways can 5 people be arranged in a row?",
+    "options": [
+      "120",
+      "25",
+      "60",
+      "20"
+    ],
+    "correctIndex": 0,
+    "explanation": "5! = 5·4·3·2·1 = 120."
+  },
+  {
+    "id": 79,
+    "question": "How many committees of 3 can be chosen from 8 people?",
+    "options": [
+      "56",
+      "24",
+      "336",
+      "40"
+    ],
+    "correctIndex": 0,
+    "explanation": "⁸C₃ = 8!/(3!·5!) = (8·7·6)/(3·2·1) = 56."
+  },
+  {
+    "id": 80,
+    "question": "In how many ways can the letters of 'MATH' be arranged?",
+    "options": [
+      "24",
+      "12",
+      "6",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "4 distinct letters: 4! = 24 arrangements."
+  },
+  {
+    "id": 81,
+    "question": "How many 3-digit numbers can be formed from 1, 2, 3, 4, 5 without repetition?",
+    "options": [
+      "60",
+      "125",
+      "15",
+      "120"
+    ],
+    "correctIndex": 0,
+    "explanation": "⁵P₃ = 5·4·3 = 60."
+  },
+  {
+    "id": 82,
+    "question": "In how many ways can 4 books be chosen from 10 if order does not matter?",
+    "options": [
+      "210",
+      "5040",
+      "40",
+      "720"
+    ],
+    "correctIndex": 0,
+    "explanation": "¹⁰C₄ = 10!/(4!·6!) = (10·9·8·7)/(24) = 210."
+  },
+  {
+    "id": 83,
+    "question": "How many circular permutations of 6 people around a table?",
+    "options": [
+      "120",
+      "720",
+      "60",
+      "360"
+    ],
+    "correctIndex": 0,
+    "explanation": "Circular permutations = (n-1)! = 5! = 120."
+  },
+  {
+    "id": 84,
+    "question": "A die is rolled. What is the probability of getting a prime number?",
+    "options": [
+      "½",
+      "⅓",
+      "⅔",
+      "¼"
+    ],
+    "correctIndex": 0,
+    "explanation": "Prime numbers on die: 2, 3, 5. P = 3/6 = ½."
+  },
+  {
+    "id": 85,
+    "question": "If P(A) = 0.4 and P(B) = 0.5, and A and B are independent, find P(A ∩ B).",
+    "options": [
+      "0.2",
+      "0.9",
+      "0.1",
+      "0.4"
+    ],
+    "correctIndex": 0,
+    "explanation": "For independent events: P(A∩B) = P(A)·P(B) = 0.4·0.5 = 0.2."
+  },
+  {
+    "id": 86,
+    "question": "A bag has 3 red and 7 blue balls. Two balls are drawn without replacement. Find P(both red).",
+    "options": [
+      "1/15",
+      "3/10",
+      "9/100",
+      "7/30"
+    ],
+    "correctIndex": 0,
+    "explanation": "P = (3/10)·(2/9) = 6/90 = 1/15."
+  },
+  {
+    "id": 87,
+    "question": "If P(A) = 0.6, P(B) = 0.4, and P(A∪B) = 0.8, find P(A∩B).",
+    "options": [
+      "0.2",
+      "0.24",
+      "0.12",
+      "0.1"
+    ],
+    "correctIndex": 0,
+    "explanation": "P(A∪B) = P(A) + P(B) - P(A∩B). So 0.8 = 0.6 + 0.4 - P(A∩B) → P(A∩B) = 0.2."
+  },
+  {
+    "id": 88,
+    "question": "A fair coin is tossed 3 times. What is P(exactly 2 heads)?",
+    "options": [
+      "⅜",
+      "½",
+      "¼",
+      "⅝"
+    ],
+    "correctIndex": 0,
+    "explanation": "Number of ways = ³C₂ = 3. P = 3·(½)³ = 3/8."
+  },
+  {
+    "id": 89,
+    "question": "If X ~ B(n=5, p=0.2), find P(X = 2).",
+    "options": [
+      "0.2048",
+      "0.1024",
+      "0.0512",
+      "0.3072"
+    ],
+    "correctIndex": 0,
+    "explanation": "P(X=2) = ⁵C₂(0.2)²(0.8)³ = 10·0.04·0.512 = 0.2048."
+  },
+  {
+    "id": 90,
+    "question": "Find the probability of getting at least one six when a die is thrown twice.",
+    "options": [
+      "11/36",
+      "1/36",
+      "25/36",
+      "1/6"
+    ],
+    "correctIndex": 0,
+    "explanation": "P(at least one 6) = 1 - P(no sixes) = 1 - (5/6)² = 1 - 25/36 = 11/36."
+  },
+  {
+    "id": 91,
+    "question": "If events A and B are mutually exclusive with P(A)=0.3 and P(B)=0.4, find P(A or B).",
+    "options": [
+      "0.7",
+      "0.12",
+      "0.1",
+      "0.5"
+    ],
+    "correctIndex": 0,
+    "explanation": "P(A or B) = P(A) + P(B) = 0.3 + 0.4 = 0.7 for mutually exclusive events."
+  },
+  {
+    "id": 92,
+    "question": "Expand (x + y)² using the binomial theorem.",
+    "options": [
+      "x² + 2xy + y²",
+      "x² + xy + y²",
+      "x² - 2xy + y²",
+      "x² + y²"
+    ],
+    "correctIndex": 0,
+    "explanation": "(x+y)² = x² + 2xy + y²."
+  },
+  {
+    "id": 93,
+    "question": "Find the coefficient of x³ in the expansion of (1 + x)⁵.",
+    "options": [
+      "10",
+      "5",
+      "20",
+      "15"
+    ],
+    "correctIndex": 0,
+    "explanation": "⁵C₃ = 5!/(3!2!) = 10."
+  },
+  {
+    "id": 94,
+    "question": "Find the 4th term in the expansion of (2 + x)⁵.",
+    "options": [
+      "80x³",
+      "40x³",
+      "10x³",
+      "80x²"
+    ],
+    "correctIndex": 1,
+    "explanation": "T₄ = ⁵C₃·2²·x³ = 10·4·x³ = 40x³."
+  },
+  {
+    "id": 95,
+    "question": "Evaluate (1.01)⁴ approximately using the first three terms of the binomial expansion.",
+    "options": [
+      "1.0406",
+      "1.04",
+      "1.0606",
+      "1.041"
+    ],
+    "correctIndex": 0,
+    "explanation": "(1+0.01)⁴ ≈ 1 + 4(0.01) + 6(0.01)² = 1 + 0.04 + 0.0006 = 1.0406."
+  },
+  {
+    "id": 96,
+    "question": "Find the middle term in the expansion of (x + 2)⁶.",
+    "options": [
+      "160x³",
+      "120x³",
+      "240x³",
+      "60x³"
+    ],
+    "correctIndex": 0,
+    "explanation": "n=6, so middle term is T₄ (r=3). T₄ = ⁶C₃·x³·2³ = 20·8·x³ = 160x³."
+  },
+  {
+    "id": 97,
+    "question": "Find the sum of the first 10 terms of the A.P.: 2, 5, 8, ...",
+    "options": [
+      "155",
+      "145",
+      "165",
+      "150"
+    ],
+    "correctIndex": 0,
+    "explanation": "a=2, d=3. S₁₀ = 10/2 · [2(2) + 9(3)] = 5 · [4 + 27] = 5 · 31 = 155."
+  },
+  {
+    "id": 98,
+    "question": "Find the 8th term of the G.P.: 3, 6, 12, ...",
+    "options": [
+      "384",
+      "192",
+      "768",
+      "96"
+    ],
+    "correctIndex": 0,
+    "explanation": "a=3, r=2. T₈ = 3·2⁷ = 3·128 = 384."
+  },
+  {
+    "id": 99,
+    "question": "Find the sum to infinity of the G.P.: 8, 4, 2, ...",
+    "options": [
+      "16",
+      "8",
+      "32",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "a=8, r=½. S∞ = a/(1-r) = 8/(½) = 16."
+  },
+  {
+    "id": 100,
+    "question": "If the sum of the first n terms of an A.P. is Sₙ = 3n² + 2n, find the 5th term.",
+    "options": [
+      "29",
+      "27",
+      "25",
+      "31"
+    ],
+    "correctIndex": 0,
+    "explanation": "T₅ = S₅ - S₄ = (3·25 + 10) - (3·16 + 8) = 85 - 56 = 29."
+  }
+]

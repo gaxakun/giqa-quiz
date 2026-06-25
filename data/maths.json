@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "Simplify: 3(2x - 5) - 2(x - 3)",
+    "options": [
+      "4x - 9",
+      "4x - 21",
+      "8x - 9",
+      "4x + 9"
+    ],
+    "correctIndex": 0,
+    "explanation": "3(2x-5) = 6x-15; 2(x-3) = 2x-6. So 6x-15-(2x-6) = 6x-15-2x+6 = 4x-9."
+  },
+  {
+    "id": 2,
+    "question": "Find the value of x if 2x + 3 = 11",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "2x + 3 = 11 → 2x = 8 → x = 4."
+  },
+  {
+    "id": 3,
+    "question": "What is the gradient of the line joining points (2, 3) and (6, 11)?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gradient = (y2-y1)/(x2-x1) = (11-3)/(6-2) = 8/4 = 2."
+  },
+  {
+    "id": 4,
+    "question": "Evaluate: 7! / 5!",
+    "options": [
+      "2",
+      "12",
+      "42",
+      "7"
+    ],
+    "correctIndex": 2,
+    "explanation": "7!/5! = (7×6×5×4×3×2×1)/(5×4×3×2×1) = 7×6 = 42."
+  },
+  {
+    "id": 5,
+    "question": "A bag contains 4 red and 6 blue balls. What is the probability of picking a red ball?",
+    "options": [
+      "2/5",
+      "1/3",
+      "3/5",
+      "1/2"
+    ],
+    "correctIndex": 0,
+    "explanation": "P(red) = 4/(4+6) = 4/10 = 2/5."
+  },
+  {
+    "id": 6,
+    "question": "Solve for x: x² - 5x + 6 = 0",
+    "options": [
+      "x = 1, 6",
+      "x = 2, 3",
+      "x = -2, -3",
+      "x = 2, -3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factorising: (x-2)(x-3) = 0, so x = 2 or x = 3."
+  },
+  {
+    "id": 7,
+    "question": "What is the sum of the interior angles of a hexagon?",
+    "options": [
+      "360°",
+      "540°",
+      "720°",
+      "900°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Sum of interior angles = (n-2) × 180° = (6-2) × 180° = 720°."
+  },
+  {
+    "id": 8,
+    "question": "Convert 0.125 to a fraction in its lowest term",
+    "options": [
+      "1/8",
+      "1/4",
+      "1/16",
+      "1/5"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.125 = 125/1000 = 1/8 when reduced to lowest terms."
+  },
+  {
+    "id": 9,
+    "question": "If log₁₀ 2 = 0.301, find log₁₀ 8",
+    "options": [
+      "0.602",
+      "0.903",
+      "1.204",
+      "0.301"
+    ],
+    "correctIndex": 1,
+    "explanation": "log 8 = log 2³ = 3 log 2 = 3 × 0.301 = 0.903."
+  },
+  {
+    "id": 10,
+    "question": "Find the next term in the sequence: 2, 6, 18, 54, ...",
+    "options": [
+      "108",
+      "144",
+      "162",
+      "216"
+    ],
+    "correctIndex": 2,
+    "explanation": "Each term is multiplied by 3 (geometric progression). 54 × 3 = 162."
+  },
+  {
+    "id": 11,
+    "question": "If 3x + 7 = 22, what is the value of x?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 2,
+    "explanation": "3x + 7 = 22 → 3x = 15 → x = 5."
+  },
+  {
+    "id": 12,
+    "question": "Simplify: (2x³y²) × (3x²y⁴)",
+    "options": [
+      "5x⁵y⁶",
+      "6x⁵y⁶",
+      "6x⁶y⁸",
+      "5x⁶y⁸"
+    ],
+    "correctIndex": 1,
+    "explanation": "Multiply coefficients: 2×3 = 6. Add exponents: x³⁺² = x⁵, y²⁺⁴ = y⁶. Result: 6x⁵y⁶."
+  },
+  {
+    "id": 13,
+    "question": "Find the midpoint of the line segment joining A(2, 4) and B(8, 10)",
+    "options": [
+      "(5, 7)",
+      "(6, 6)",
+      "(5, 6)",
+      "(6, 7)"
+    ],
+    "correctIndex": 0,
+    "explanation": "Midpoint = ((2+8)/2, (4+10)/2) = (10/2, 14/2) = (5, 7)."
+  },
+  {
+    "id": 14,
+    "question": "What is the HCF of 36 and 48?",
+    "options": [
+      "6",
+      "12",
+      "18",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "Factors of 36: 1,2,3,4,6,9,12,18,36. Factors of 48: 1,2,3,4,6,8,12,16,24,48. HCF = 12."
+  },
+  {
+    "id": 15,
+    "question": "Express 0.4545... as a fraction in its lowest terms",
+    "options": [
+      "5/11",
+      "45/100",
+      "9/20",
+      "4/9"
+    ],
+    "correctIndex": 0,
+    "explanation": "Let x = 0.4545... Then 100x = 45.4545... Subtract: 99x = 45 → x = 45/99 = 5/11."
+  },
+  {
+    "id": 16,
+    "question": "If sin θ = 3/5 and θ is acute, find cos θ",
+    "options": [
+      "3/5",
+      "4/5",
+      "5/4",
+      "5/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using sin²θ + cos²θ = 1: cos²θ = 1 - (3/5)² = 1 - 9/25 = 16/25. cos θ = 4/5."
+  },
+  {
+    "id": 17,
+    "question": "A car travels 240 km in 3 hours. What is its average speed?",
+    "options": [
+      "60 km/h",
+      "70 km/h",
+      "80 km/h",
+      "90 km/h"
+    ],
+    "correctIndex": 2,
+    "explanation": "Speed = Distance/Time = 240/3 = 80 km/h."
+  },
+  {
+    "id": 18,
+    "question": "Find the equation of the line with gradient 3 passing through (1, 5)",
+    "options": [
+      "y = 3x + 2",
+      "y = 3x + 5",
+      "y = 3x - 2",
+      "y = 3x + 1"
+    ],
+    "correctIndex": 0,
+    "explanation": "Using y - y₁ = m(x - x₁): y - 5 = 3(x - 1) → y = 3x - 3 + 5 → y = 3x + 2."
+  },
+  {
+    "id": 19,
+    "question": "Evaluate: 2⁻³",
+    "options": [
+      "-8",
+      "-6",
+      "1/8",
+      "8"
+    ],
+    "correctIndex": 2,
+    "explanation": "2⁻³ = 1/2³ = 1/8."
+  },
+  {
+    "id": 20,
+    "question": "The mean of 5 numbers is 12. If four of the numbers are 10, 14, 8, and 16, find the fifth number",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "Total of 5 numbers = 5 × 12 = 60. Sum of four = 10+14+8+16 = 48. Fifth = 60 - 48 = 12."
+  },
+  {
+    "id": 21,
+    "question": "Factorise completely: x² - 9",
+    "options": [
+      "(x-3)²",
+      "(x+3)(x-3)",
+      "(x-9)(x+1)",
+      "x(x-9)"
+    ],
+    "correctIndex": 1,
+    "explanation": "x² - 9 = x² - 3² = (x+3)(x-3) using difference of squares."
+  },
+  {
+    "id": 22,
+    "question": "If f(x) = x² + 3x - 4, find f(-2)",
+    "options": [
+      "-6",
+      "-2",
+      "0",
+      "6"
+    ],
+    "correctIndex": 0,
+    "explanation": "f(-2) = (-2)² + 3(-2) - 4 = 4 - 6 - 4 = -6."
+  },
+  {
+    "id": 23,
+    "question": "A rectangle has length 8 cm and width 6 cm. Find its diagonal",
+    "options": [
+      "8 cm",
+      "10 cm",
+      "12 cm",
+      "14 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Diagonal = √(8² + 6²) = √(64 + 36) = √100 = 10 cm (Pythagoras theorem)."
+  },
+  {
+    "id": 24,
+    "question": "Solve the inequality: 2x - 5 > 7",
+    "options": [
+      "x > 1",
+      "x > 6",
+      "x < 6",
+      "x > 12"
+    ],
+    "correctIndex": 1,
+    "explanation": "2x - 5 > 7 → 2x > 12 → x > 6."
+  },
+  {
+    "id": 25,
+    "question": "What is the LCM of 8 and 12?",
+    "options": [
+      "24",
+      "48",
+      "96",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Multiples of 8: 8, 16, 24, 32... Multiples of 12: 12, 24, 36... LCM = 24."
+  },
+  {
+    "id": 26,
+    "question": "If 5 men can dig a trench in 6 days, how many days will 3 men take?",
+    "options": [
+      "8 days",
+      "9 days",
+      "10 days",
+      "12 days"
+    ],
+    "correctIndex": 2,
+    "explanation": "This is inverse proportion. 5 men × 6 days = 3 men × d days → d = (5×6)/3 = 10 days."
+  },
+  {
+    "id": 27,
+    "question": "Find the value of tan 45°",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "√3"
+    ],
+    "correctIndex": 2,
+    "explanation": "tan 45° = 1 (from the special triangle or unit circle)."
+  },
+  {
+    "id": 28,
+    "question": "Simplify: (x² - 4x + 4) / (x - 2)",
+    "options": [
+      "x - 2",
+      "x + 2",
+      "x - 4",
+      "x + 4"
+    ],
+    "correctIndex": 0,
+    "explanation": "x² - 4x + 4 = (x-2)². So (x-2)²/(x-2) = x - 2."
+  },
+  {
+    "id": 29,
+    "question": "A shopkeeper buys an item for ₦500 and sells it for ₦650. What is the percentage profit?",
+    "options": [
+      "20%",
+      "25%",
+      "30%",
+      "35%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Profit = 650 - 500 = 150. % profit = (150/500) × 100 = 30%."
+  },
+  {
+    "id": 30,
+    "question": "Find the area of a circle with radius 7 cm (take π = 22/7)",
+    "options": [
+      "44 cm²",
+      "88 cm²",
+      "154 cm²",
+      "308 cm²"
+    ],
+    "correctIndex": 2,
+    "explanation": "Area = πr² = (22/7) × 7² = (22/7) × 49 = 22 × 7 = 154 cm²."
+  },
+  {
+    "id": 31,
+    "question": "If log₂ 8 = x, find x",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "8"
+    ],
+    "correctIndex": 1,
+    "explanation": "2³ = 8, so log₂ 8 = 3."
+  },
+  {
+    "id": 32,
+    "question": "The ratio of boys to girls in a class is 3:5. If there are 24 boys, how many girls are there?",
+    "options": [
+      "30",
+      "36",
+      "40",
+      "45"
+    ],
+    "correctIndex": 2,
+    "explanation": "3 parts = 24 boys → 1 part = 8. 5 parts = 5 × 8 = 40 girls."
+  },
+  {
+    "id": 33,
+    "question": "Solve: 3(x + 2) = 2(x + 5)",
+    "options": [
+      "x = 2",
+      "x = 4",
+      "x = 6",
+      "x = 8"
+    ],
+    "correctIndex": 1,
+    "explanation": "3x + 6 = 2x + 10 → 3x - 2x = 10 - 6 → x = 4."
+  },
+  {
+    "id": 34,
+    "question": "What is the value of 16^(3/4)?",
+    "options": [
+      "4",
+      "8",
+      "12",
+      "16"
+    ],
+    "correctIndex": 1,
+    "explanation": "16^(3/4) = (⁴√16)³ = 2³ = 8."
+  },
+  {
+    "id": 35,
+    "question": "Find the median of: 12, 8, 15, 6, 9, 11, 10",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ordered: 6, 8, 9, 10, 11, 12, 15. Median (middle value) = 10."
+  },
+  {
+    "id": 36,
+    "question": "If a = 2, b = -3, and c = 4, evaluate a² + b² - c",
+    "options": [
+      "5",
+      "7",
+      "9",
+      "11"
+    ],
+    "correctIndex": 2,
+    "explanation": "a² + b² - c = 4 + 9 - 4 = 9."
+  },
+  {
+    "id": 37,
+    "question": "A regular polygon has interior angles of 150° each. How many sides does it have?",
+    "options": [
+      "10",
+      "12",
+      "15",
+      "18"
+    ],
+    "correctIndex": 1,
+    "explanation": "Interior angle = (n-2)×180/n = 150 → 180n - 360 = 150n → 30n = 360 → n = 12."
+  },
+  {
+    "id": 38,
+    "question": "Simplify: √(50) + √(18) - √(8)",
+    "options": [
+      "5√2",
+      "6√2",
+      "7√2",
+      "8√2"
+    ],
+    "correctIndex": 1,
+    "explanation": "√50 = 5√2, √18 = 3√2, √8 = 2√2. So 5√2 + 3√2 - 2√2 = 6√2."
+  },
+  {
+    "id": 39,
+    "question": "Find the range of the data: 5, 12, 8, 15, 3, 9, 11",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 3,
+    "explanation": "Range = maximum - minimum = 15 - 3 = 12."
+  },
+  {
+    "id": 40,
+    "question": "If 2^(x+1) = 32, find x",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "correctIndex": 1,
+    "explanation": "32 = 2⁵, so x + 1 = 5 → x = 4."
+  },
+  {
+    "id": 41,
+    "question": "The sum of three consecutive even numbers is 78. Find the largest number",
+    "options": [
+      "24",
+      "26",
+      "28",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "Let numbers be x, x+2, x+4. Sum: 3x + 6 = 78 → 3x = 72 → x = 24. Largest = 24 + 4 = 28."
+  },
+  {
+    "id": 42,
+    "question": "Find the value of cos 60°",
+    "options": [
+      "0",
+      "1/2",
+      "√3/2",
+      "1"
+    ],
+    "correctIndex": 1,
+    "explanation": "cos 60° = 1/2 (from the special equilateral triangle)."
+  },
+  {
+    "id": 43,
+    "question": "A train travels at 90 km/h. How far will it travel in 40 minutes?",
+    "options": [
+      "50 km",
+      "55 km",
+      "60 km",
+      "65 km"
+    ],
+    "correctIndex": 2,
+    "explanation": "40 minutes = 40/60 = 2/3 hour. Distance = 90 × (2/3) = 60 km."
+  },
+  {
+    "id": 44,
+    "question": "Solve for x: 4/x = 2/5",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "20"
+    ],
+    "correctIndex": 2,
+    "explanation": "Cross-multiply: 4 × 5 = 2 × x → 20 = 2x → x = 10."
+  },
+  {
+    "id": 45,
+    "question": "What is the probability of getting a head when a fair coin is tossed?",
+    "options": [
+      "1/4",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctIndex": 2,
+    "explanation": "A fair coin has 2 equally likely outcomes. P(head) = 1/2."
+  },
+  {
+    "id": 46,
+    "question": "Find the volume of a cylinder with radius 3 cm and height 10 cm (π = 22/7)",
+    "options": [
+      "270 cm³",
+      "282.86 cm³",
+      "300 cm³",
+      "314 cm³"
+    ],
+    "correctIndex": 1,
+    "explanation": "Volume = πr²h = (22/7) × 9 × 10 = 282.86 cm³ (approx)."
+  },
+  {
+    "id": 47,
+    "question": "If y varies directly as x and y = 15 when x = 5, find y when x = 8",
+    "options": [
+      "20",
+      "22",
+      "24",
+      "26"
+    ],
+    "correctIndex": 2,
+    "explanation": "y = kx → 15 = 5k → k = 3. When x = 8: y = 3 × 8 = 24."
+  },
+  {
+    "id": 48,
+    "question": "Simplify: (3a²b)³",
+    "options": [
+      "9a⁶b³",
+      "27a⁵b³",
+      "27a⁶b³",
+      "9a⁵b³"
+    ],
+    "correctIndex": 2,
+    "explanation": "(3a²b)³ = 3³ × (a²)³ × b³ = 27a⁶b³."
+  },
+  {
+    "id": 49,
+    "question": "Find the mode of: 4, 7, 5, 4, 6, 4, 8, 5, 4",
+    "options": [
+      "5",
+      "4",
+      "6",
+      "7"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 appears 4 times (most frequent). Mode = 4."
+  },
+  {
+    "id": 50,
+    "question": "The area of a square is 144 cm². Find its perimeter",
+    "options": [
+      "36 cm",
+      "42 cm",
+      "48 cm",
+      "52 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "Side = √144 = 12 cm. Perimeter = 4 × 12 = 48 cm."
+  },
+  {
+    "id": 51,
+    "question": "If 3x - 2y = 8 and x + y = 6, find the value of x",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "From second eq: y = 6 - x. Substitute: 3x - 2(6-x) = 8 → 3x - 12 + 2x = 8 → 5x = 20 → x = 4."
+  },
+  {
+    "id": 52,
+    "question": "Find the value of 9^(1/2)",
+    "options": [
+      "3",
+      "4.5",
+      "9",
+      "18"
+    ],
+    "correctIndex": 0,
+    "explanation": "9^(1/2) = √9 = 3."
+  },
+  {
+    "id": 53,
+    "question": "A map scale is 1:50000. What distance on the ground does 4 cm on the map represent?",
+    "options": [
+      "1 km",
+      "2 km",
+      "2.5 km",
+      "4 km"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 cm × 50000 = 200000 cm = 2000 m = 2 km."
+  },
+  {
+    "id": 54,
+    "question": "Solve: x/3 + x/4 = 7",
+    "options": [
+      "8",
+      "10",
+      "12",
+      "14"
+    ],
+    "correctIndex": 2,
+    "explanation": "Multiply by 12: 4x + 3x = 84 → 7x = 84 → x = 12."
+  },
+  {
+    "id": 55,
+    "question": "What is the sum of the first 10 terms of the AP: 2, 5, 8, 11, ...?",
+    "options": [
+      "145",
+      "150",
+      "155",
+      "160"
+    ],
+    "correctIndex": 2,
+    "explanation": "S₁₀ = (10/2)[2×2 + (10-1)×3] = 5[4 + 27] = 5 × 31 = 155."
+  },
+  {
+    "id": 56,
+    "question": "If the bearing of A from B is 065°, what is the bearing of B from A?",
+    "options": [
+      "115°",
+      "245°",
+      "295°",
+      "335°"
+    ],
+    "correctIndex": 1,
+    "explanation": "Back bearing = 065° + 180° = 245°."
+  },
+  {
+    "id": 57,
+    "question": "Find the curved surface area of a cone with radius 7 cm and slant height 10 cm (π = 22/7)",
+    "options": [
+      "154 cm²",
+      "220 cm²",
+      "308 cm²",
+      "440 cm²"
+    ],
+    "correctIndex": 1,
+    "explanation": "CSA = πrl = (22/7) × 7 × 10 = 220 cm²."
+  },
+  {
+    "id": 58,
+    "question": "Simplify: log₁₀ 50 + log₁₀ 2",
+    "options": [
+      "log₁₀ 52",
+      "2",
+      "log₁₀ 100",
+      "1"
+    ],
+    "correctIndex": 2,
+    "explanation": "log 50 + log 2 = log(50×2) = log 100 = 2."
+  },
+  {
+    "id": 59,
+    "question": "A man deposits ₦50000 in a bank at 5% simple interest per annum. How much interest does he earn in 3 years?",
+    "options": [
+      "₦5000",
+      "₦7500",
+      "₦10000",
+      "₦12500"
+    ],
+    "correctIndex": 1,
+    "explanation": "SI = PRT/100 = (50000 × 5 × 3)/100 = ₦7500."
+  },
+  {
+    "id": 60,
+    "question": "Find the value of x if x + 2y = 8 and 2x - y = 6",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "From first eq: x = 8 - 2y. Substitute: 2(8-2y) - y = 6 → 16 - 4y - y = 6 → -5y = -10 → y = 2. Then x = 8 - 4 = 4."
+  },
+  {
+    "id": 61,
+    "question": "What is the value of (0.2)³?",
+    "options": [
+      "0.006",
+      "0.008",
+      "0.06",
+      "0.08"
+    ],
+    "correctIndex": 1,
+    "explanation": "(0.2)³ = 0.2 × 0.2 × 0.2 = 0.008."
+  },
+  {
+    "id": 62,
+    "question": "Find the area of a triangle with base 12 cm and height 8 cm",
+    "options": [
+      "40 cm²",
+      "48 cm²",
+      "56 cm²",
+      "64 cm²"
+    ],
+    "correctIndex": 1,
+    "explanation": "Area = (1/2) × base × height = (1/2) × 12 × 8 = 48 cm²."
+  },
+  {
+    "id": 63,
+    "question": "If 2^x = 1/8, find x",
+    "options": [
+      "-3",
+      "-2",
+      "-1",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/8 = 2⁻³, so x = -3."
+  },
+  {
+    "id": 64,
+    "question": "A bag contains 3 red, 5 blue, and 2 green balls. What is the probability of picking neither red nor green?",
+    "options": [
+      "1/2",
+      "2/5",
+      "1/5",
+      "3/10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Total = 10. Blue = 5. P(blue) = 5/10 = 1/2."
+  },
+  {
+    "id": 65,
+    "question": "Simplify: (x² - 5x + 6) / (x - 3)",
+    "options": [
+      "x - 2",
+      "x + 2",
+      "x - 3",
+      "x + 3"
+    ],
+    "correctIndex": 0,
+    "explanation": "x² - 5x + 6 = (x-2)(x-3). So (x-2)(x-3)/(x-3) = x - 2."
+  },
+  {
+    "id": 66,
+    "question": "Find the 8th term of the sequence: 3, 7, 11, 15, ...",
+    "options": [
+      "27",
+      "29",
+      "31",
+      "33"
+    ],
+    "correctIndex": 2,
+    "explanation": "AP with a = 3, d = 4. T₈ = 3 + (8-1)×4 = 3 + 28 = 31."
+  },
+  {
+    "id": 67,
+    "question": "If sin 30° = 1/2, find the value of cosec 30°",
+    "options": [
+      "1/2",
+      "1",
+      "2",
+      "√3"
+    ],
+    "correctIndex": 2,
+    "explanation": "cosec θ = 1/sin θ. So cosec 30° = 1/(1/2) = 2."
+  },
+  {
+    "id": 68,
+    "question": "A rectangular tank is 5 m long, 3 m wide, and 2 m deep. Find its capacity in litres",
+    "options": [
+      "15000 L",
+      "20000 L",
+      "25000 L",
+      "30000 L"
+    ],
+    "correctIndex": 3,
+    "explanation": "Volume = 5 × 3 × 2 = 30 m³ = 30 × 1000 = 30000 litres."
+  },
+  {
+    "id": 69,
+    "question": "Solve: √(2x + 5) = 5",
+    "options": [
+      "5",
+      "8",
+      "10",
+      "12"
+    ],
+    "correctIndex": 2,
+    "explanation": "Square both sides: 2x + 5 = 25 → 2x = 20 → x = 10."
+  },
+  {
+    "id": 70,
+    "question": "Find the value of x if the mean of 4, 7, x, 9, and 5 is 7",
+    "options": [
+      "8",
+      "9",
+      "10",
+      "11"
+    ],
+    "correctIndex": 2,
+    "explanation": "Mean = (4+7+x+9+5)/5 = 7 → 25 + x = 35 → x = 10."
+  },
+  {
+    "id": 71,
+    "question": "What is the value of 125^(2/3)?",
+    "options": [
+      "15",
+      "20",
+      "25",
+      "30"
+    ],
+    "correctIndex": 2,
+    "explanation": "125^(2/3) = (³√125)² = 5² = 25."
+  },
+  {
+    "id": 72,
+    "question": "A circle has circumference 44 cm. Find its radius (π = 22/7)",
+    "options": [
+      "5 cm",
+      "6 cm",
+      "7 cm",
+      "8 cm"
+    ],
+    "correctIndex": 2,
+    "explanation": "C = 2πr → 44 = 2 × (22/7) × r → r = (44 × 7)/(2 × 22) = 7 cm."
+  },
+  {
+    "id": 73,
+    "question": "If f(x) = 2x - 1 and g(x) = x², find f(g(3))",
+    "options": [
+      "15",
+      "16",
+      "17",
+      "18"
+    ],
+    "correctIndex": 2,
+    "explanation": "g(3) = 3² = 9. f(9) = 2(9) - 1 = 17."
+  },
+  {
+    "id": 74,
+    "question": "Simplify: (2x - 3)² - (x + 1)²",
+    "options": [
+      "3x² - 14x + 8",
+      "3x² - 10x + 8",
+      "x² - 14x + 8",
+      "3x² - 14x + 10"
+    ],
+    "correctIndex": 0,
+    "explanation": "(2x-3)² = 4x² - 12x + 9. (x+1)² = x² + 2x + 1. Difference: 3x² - 14x + 8."
+  },
+  {
+    "id": 75,
+    "question": "The angle of elevation of the top of a tower from a point 30 m away is 45°. Find the height of the tower",
+    "options": [
+      "15 m",
+      "20 m",
+      "25 m",
+      "30 m"
+    ],
+    "correctIndex": 3,
+    "explanation": "tan 45° = height/30 → 1 = height/30 → height = 30 m."
+  },
+  {
+    "id": 76,
+    "question": "Find the value of x if 5^(2x-1) = 125",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "125 = 5³, so 2x - 1 = 3 → 2x = 4 → x = 2."
+  },
+  {
+    "id": 77,
+    "question": "A trader sold an article for ₦7200 at a loss of 10%. What was the cost price?",
+    "options": [
+      "₦7800",
+      "₦8000",
+      "₦8200",
+      "₦8500"
+    ],
+    "correctIndex": 1,
+    "explanation": "SP = 90% of CP → 7200 = 0.9 × CP → CP = 7200/0.9 = ₦8000."
+  },
+  {
+    "id": 78,
+    "question": "Find the sum of the exterior angles of a pentagon",
+    "options": [
+      "180°",
+      "360°",
+      "540°",
+      "720°"
+    ],
+    "correctIndex": 1,
+    "explanation": "The sum of exterior angles of any polygon is always 360°."
+  },
+  {
+    "id": 79,
+    "question": "If log₁₀ x = 2, find x",
+    "options": [
+      "10",
+      "50",
+      "100",
+      "200"
+    ],
+    "correctIndex": 2,
+    "explanation": "log₁₀ x = 2 → x = 10² = 100."
+  },
+  {
+    "id": 80,
+    "question": "A die is thrown once. What is the probability of getting a number greater than 4?",
+    "options": [
+      "1/6",
+      "1/3",
+      "1/2",
+      "2/3"
+    ],
+    "correctIndex": 1,
+    "explanation": "Numbers > 4 are 5 and 6. P = 2/6 = 1/3."
+  },
+  {
+    "id": 81,
+    "question": "Find the value of x if (x + 2)/3 = (2x - 1)/5",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 3,
+    "explanation": "Cross-multiply: 5(x+2) = 3(2x-1) → 5x + 10 = 6x - 3 → x = 13."
+  },
+  {
+    "id": 82,
+    "question": "What is the value of (2/3)⁻²?",
+    "options": [
+      "4/9",
+      "9/4",
+      "-4/9",
+      "-9/4"
+    ],
+    "correctIndex": 1,
+    "explanation": "(2/3)⁻² = (3/2)² = 9/4."
+  },
+  {
+    "id": 83,
+    "question": "Find the area of a sector of a circle with radius 14 cm and angle 60° (π = 22/7)",
+    "options": [
+      "88 cm²",
+      "100 cm²",
+      "102.67 cm²",
+      "154 cm²"
+    ],
+    "correctIndex": 2,
+    "explanation": "Area = (θ/360) × πr² = (60/360) × (22/7) × 196 = (1/6) × 616 = 102.67 cm²."
+  },
+  {
+    "id": 84,
+    "question": "If x + y = 7 and 2x - y = 5, find y",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 1,
+    "explanation": "Add equations: 3x = 12 → x = 4. Then 4 + y = 7 → y = 3."
+  },
+  {
+    "id": 85,
+    "question": "Find the value of x if 4^(x+1) = 64",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "correctIndex": 1,
+    "explanation": "64 = 4³, so x + 1 = 3 → x = 2."
+  },
+  {
+    "id": 86,
+    "question": "A man walks 6 km due north and then 8 km due east. How far is he from his starting point?",
+    "options": [
+      "8 km",
+      "10 km",
+      "12 km",
+      "14 km"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using Pythagoras: distance = √(6² + 8²) = √(36 + 64) = √100 = 10 km."
+  },
+  {
+    "id": 87,
+    "question": "Simplify: (a³b²)/(a²b)",
+    "options": [
+      "ab",
+      "a/b",
+      "ab²",
+      "a²b"
+    ],
+    "correctIndex": 0,
+    "explanation": "a³/a² = a, b²/b = b. Result: ab."
+  },
+  {
+    "id": 88,
+    "question": "Find the median of the numbers: 15, 8, 12, 6, 10, 9, 11",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ordered: 6, 8, 9, 10, 11, 12, 15. Median = 10."
+  },
+  {
+    "id": 89,
+    "question": "If the ratio of the ages of two brothers is 4:5 and the younger is 16 years old, how old is the elder?",
+    "options": [
+      "18",
+      "20",
+      "22",
+      "24"
+    ],
+    "correctIndex": 1,
+    "explanation": "4 parts = 16 → 1 part = 4. Elder = 5 × 4 = 20 years."
+  },
+  {
+    "id": 90,
+    "question": "Find the value of x if log₂(x + 3) = 4",
+    "options": [
+      "10",
+      "11",
+      "12",
+      "13"
+    ],
+    "correctIndex": 3,
+    "explanation": "x + 3 = 2⁴ = 16 → x = 13."
+  },
+  {
+    "id": 91,
+    "question": "A regular hexagon has side length 8 cm. Find its perimeter",
+    "options": [
+      "40 cm",
+      "48 cm",
+      "56 cm",
+      "64 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Perimeter = 6 × 8 = 48 cm."
+  },
+  {
+    "id": 92,
+    "question": "Solve: 2(x - 3) + 3(x + 2) = 20",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x - 6 + 3x + 6 = 20 → 5x = 20 → x = 4."
+  },
+  {
+    "id": 93,
+    "question": "What is the value of sin² 30° + cos² 30°?",
+    "options": [
+      "0",
+      "1/2",
+      "1",
+      "3/2"
+    ],
+    "correctIndex": 2,
+    "explanation": "By the Pythagorean identity, sin²θ + cos²θ = 1 for any angle θ."
+  },
+  {
+    "id": 94,
+    "question": "Find the value of x if 3^x = 1/27",
+    "options": [
+      "-3",
+      "-2",
+      "-1",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/27 = 3⁻³, so x = -3."
+  },
+  {
+    "id": 95,
+    "question": "A shop reduces the price of a shirt by 20%. If the new price is ₦4000, what was the original price?",
+    "options": [
+      "₦4500",
+      "₦4800",
+      "₦5000",
+      "₦5200"
+    ],
+    "correctIndex": 2,
+    "explanation": "New price = 80% of original → 4000 = 0.8 × original → original = 4000/0.8 = ₦5000."
+  },
+  {
+    "id": 96,
+    "question": "Find the 15th term of the AP: 5, 9, 13, 17, ...",
+    "options": [
+      "57",
+      "59",
+      "61",
+      "63"
+    ],
+    "correctIndex": 2,
+    "explanation": "a = 5, d = 4. T₁₅ = 5 + (15-1)×4 = 5 + 56 = 61."
+  },
+  {
+    "id": 97,
+    "question": "If tan θ = 3/4 and θ is acute, find sin θ",
+    "options": [
+      "3/5",
+      "4/5",
+      "3/4",
+      "5/4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Opposite = 3, adjacent = 4, hypotenuse = 5 (3-4-5 triangle). sin θ = opposite/hypotenuse = 3/5."
+  },
+  {
+    "id": 98,
+    "question": "Find the value of x if (2x - 1)/3 = 5",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "correctIndex": 2,
+    "explanation": "2x - 1 = 15 → 2x = 16 → x = 8."
+  },
+  {
+    "id": 99,
+    "question": "A cylindrical pipe has radius 2 cm and length 50 cm. Find its volume (π = 22/7)",
+    "options": [
+      "600 cm³",
+      "628.57 cm³",
+      "650 cm³",
+      "700 cm³"
+    ],
+    "correctIndex": 1,
+    "explanation": "Volume = πr²h = (22/7) × 4 × 50 = 628.57 cm³."
+  },
+  {
+    "id": 100,
+    "question": "If f(x) = x² - 4x + 3, find the minimum value of f(x)",
+    "options": [
+      "-1",
+      "0",
+      "1",
+      "3"
+    ],
+    "correctIndex": 0,
+    "explanation": "Complete the square: f(x) = (x-2)² - 1. Minimum value is -1 when x = 2."
+  }
+]

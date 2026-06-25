@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "What is the SI unit of force?",
+    "options": [
+      "Joule",
+      "Watt",
+      "Newton",
+      "Pascal"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Newton (N) is the SI unit of force, defined as the force needed to accelerate 1 kg at 1 m/s²."
+  },
+  {
+    "id": 2,
+    "question": "A body of mass 2 kg accelerates at 3 m/s². What force acts on it?",
+    "options": [
+      "1.5 N",
+      "5 N",
+      "6 N",
+      "9 N"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using F = ma: F = 2 × 3 = 6 N."
+  },
+  {
+    "id": 3,
+    "question": "What is the speed of light in a vacuum (approximately)?",
+    "options": [
+      "3 × 10⁵ m/s",
+      "3 × 10⁶ m/s",
+      "3 × 10⁷ m/s",
+      "3 × 10⁸ m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "The speed of light in a vacuum is approximately 3 × 10⁸ m/s."
+  },
+  {
+    "id": 4,
+    "question": "Which law states that the rate of change of momentum is proportional to the applied force?",
+    "options": [
+      "Newton's First Law",
+      "Newton's Second Law",
+      "Newton's Third Law",
+      "Law of Conservation of Energy"
+    ],
+    "correctIndex": 1,
+    "explanation": "Newton's Second Law states force equals the rate of change of momentum (F = ma for constant mass)."
+  },
+  {
+    "id": 5,
+    "question": "What type of lens is used to correct short-sightedness (myopia)?",
+    "options": [
+      "Concave lens",
+      "Convex lens",
+      "Cylindrical lens",
+      "Bifocal lens"
+    ],
+    "correctIndex": 0,
+    "explanation": "A concave (diverging) lens corrects myopia by diverging light rays before they enter the eye."
+  },
+  {
+    "id": 6,
+    "question": "What is the resistance of a wire if a current of 2A flows through it under a potential difference of 12V?",
+    "options": [
+      "4 Ω",
+      "6 Ω",
+      "8 Ω",
+      "24 Ω"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using Ohm's law, R = V/I = 12/2 = 6 Ω."
+  },
+  {
+    "id": 7,
+    "question": "Which quantity remains constant in simple harmonic motion?",
+    "options": [
+      "Velocity",
+      "Acceleration",
+      "Total energy",
+      "Displacement"
+    ],
+    "correctIndex": 2,
+    "explanation": "In SHM, total mechanical energy (kinetic + potential) remains constant; velocity, acceleration, and displacement all vary."
+  },
+  {
+    "id": 8,
+    "question": "What is the work done when a force of 10N moves an object 5m in the direction of the force?",
+    "options": [
+      "2 J",
+      "15 J",
+      "50 J",
+      "500 J"
+    ],
+    "correctIndex": 2,
+    "explanation": "Work = Force × distance = 10 × 5 = 50 J."
+  },
+  {
+    "id": 9,
+    "question": "Which of these is a vector quantity?",
+    "options": [
+      "Speed",
+      "Distance",
+      "Mass",
+      "Velocity"
+    ],
+    "correctIndex": 3,
+    "explanation": "Velocity has both magnitude and direction, making it a vector quantity. Speed, distance, and mass are scalars."
+  },
+  {
+    "id": 10,
+    "question": "What happens to the pressure of a gas at constant temperature when its volume is halved?",
+    "options": [
+      "Halved",
+      "Doubled",
+      "Quadrupled",
+      "Unchanged"
+    ],
+    "correctIndex": 1,
+    "explanation": "By Boyle's Law, P₁V₁ = P₂V₂ at constant temperature. Halving volume doubles pressure."
+  },
+  {
+    "id": 11,
+    "question": "What is the SI unit of electric charge?",
+    "options": [
+      "Ampere",
+      "Volt",
+      "Coulomb",
+      "Ohm"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Coulomb (C) is the SI unit of electric charge. 1 C = charge transferred by 1 A current in 1 second."
+  },
+  {
+    "id": 12,
+    "question": "A car starts from rest and reaches a velocity of 20 m/s in 5 seconds. What is its acceleration?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "5 m/s²",
+      "10 m/s²"
+    ],
+    "correctIndex": 1,
+    "explanation": "a = (v - u)/t = (20 - 0)/5 = 4 m/s²."
+  },
+  {
+    "id": 13,
+    "question": "What is the kinetic energy of a 5 kg mass moving at 4 m/s?",
+    "options": [
+      "20 J",
+      "30 J",
+      "40 J",
+      "50 J"
+    ],
+    "correctIndex": 2,
+    "explanation": "KE = ½mv² = ½ × 5 × 4² = ½ × 5 × 16 = 40 J."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following is NOT a form of electromagnetic radiation?",
+    "options": [
+      "X-rays",
+      "Sound waves",
+      "Gamma rays",
+      "Infrared rays"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sound waves are mechanical waves requiring a medium. X-rays, gamma rays, and infrared are all electromagnetic waves."
+  },
+  {
+    "id": 15,
+    "question": "What is the power dissipated in a 4 Ω resistor carrying a current of 3 A?",
+    "options": [
+      "12 W",
+      "24 W",
+      "36 W",
+      "48 W"
+    ],
+    "correctIndex": 2,
+    "explanation": "P = I²R = 3² × 4 = 9 × 4 = 36 W."
+  },
+  {
+    "id": 16,
+    "question": "A body weighs 60 N on Earth. What is its mass? (take g = 10 m/s²)",
+    "options": [
+      "4 kg",
+      "5 kg",
+      "6 kg",
+      "7 kg"
+    ],
+    "correctIndex": 2,
+    "explanation": "W = mg → m = W/g = 60/10 = 6 kg."
+  },
+  {
+    "id": 17,
+    "question": "What is the focal length of a lens with power +2 D?",
+    "options": [
+      "0.2 m",
+      "0.5 m",
+      "2 m",
+      "5 m"
+    ],
+    "correctIndex": 1,
+    "explanation": "Power P = 1/f → f = 1/P = 1/2 = 0.5 m. Positive power means converging (convex) lens."
+  },
+  {
+    "id": 18,
+    "question": "Which colour of light has the shortest wavelength in the visible spectrum?",
+    "options": [
+      "Red",
+      "Green",
+      "Blue",
+      "Violet"
+    ],
+    "correctIndex": 3,
+    "explanation": "Violet light has the shortest wavelength (≈ 400 nm) and highest frequency in the visible spectrum."
+  },
+  {
+    "id": 19,
+    "question": "What is the efficiency of a machine with output energy 80 J and input energy 100 J?",
+    "options": [
+      "60%",
+      "70%",
+      "80%",
+      "90%"
+    ],
+    "correctIndex": 2,
+    "explanation": "Efficiency = (output/input) × 100 = (80/100) × 100 = 80%."
+  },
+  {
+    "id": 20,
+    "question": "A wave has frequency 50 Hz and wavelength 4 m. What is its speed?",
+    "options": [
+      "12.5 m/s",
+      "25 m/s",
+      "100 m/s",
+      "200 m/s"
+    ],
+    "correctIndex": 3,
+    "explanation": "v = fλ = 50 × 4 = 200 m/s."
+  },
+  {
+    "id": 21,
+    "question": "What is the principle of conservation of momentum?",
+    "options": [
+      "Momentum is always zero",
+      "Total momentum before collision equals total momentum after",
+      "Momentum is proportional to velocity only",
+      "Momentum increases during collisions"
+    ],
+    "correctIndex": 1,
+    "explanation": "In an isolated system, total momentum before collision equals total momentum after collision."
+  },
+  {
+    "id": 22,
+    "question": "What is the boiling point of water at standard atmospheric pressure?",
+    "options": [
+      "90°C",
+      "100°C",
+      "110°C",
+      "120°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Water boils at 100°C at standard atmospheric pressure (1 atm or 101325 Pa)."
+  },
+  {
+    "id": 23,
+    "question": "A transformer has 200 turns in the primary coil and 1000 turns in the secondary coil. If the primary voltage is 12 V, what is the secondary voltage?",
+    "options": [
+      "2.4 V",
+      "6 V",
+      "60 V",
+      "120 V"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vs/Vp = Ns/Np → Vs = 12 × (1000/200) = 12 × 5 = 60 V."
+  },
+  {
+    "id": 24,
+    "question": "Which of the following materials is a good conductor of electricity?",
+    "options": [
+      "Rubber",
+      "Glass",
+      "Copper",
+      "Plastic"
+    ],
+    "correctIndex": 2,
+    "explanation": "Copper is a metal with free electrons, making it an excellent electrical conductor. Rubber, glass, and plastic are insulators."
+  },
+  {
+    "id": 25,
+    "question": "What is the gravitational potential energy of a 10 kg mass raised to a height of 5 m? (g = 10 m/s²)",
+    "options": [
+      "200 J",
+      "250 J",
+      "500 J",
+      "1000 J"
+    ],
+    "correctIndex": 2,
+    "explanation": "GPE = mgh = 10 × 10 × 5 = 500 J."
+  },
+  {
+    "id": 26,
+    "question": "What happens to the resistance of a metallic conductor when its temperature increases?",
+    "options": [
+      "Decreases",
+      "Increases",
+      "Remains constant",
+      "Becomes zero"
+    ],
+    "correctIndex": 1,
+    "explanation": "For metallic conductors, resistance increases with temperature because increased lattice vibrations impede electron flow."
+  },
+  {
+    "id": 27,
+    "question": "What is the refractive index of a medium if the speed of light in it is 2 × 10⁸ m/s? (c = 3 × 10⁸ m/s)",
+    "options": [
+      "1.0",
+      "1.3",
+      "1.5",
+      "2.0"
+    ],
+    "correctIndex": 2,
+    "explanation": "n = c/v = (3 × 10⁸)/(2 × 10⁸) = 1.5."
+  },
+  {
+    "id": 28,
+    "question": "A body moving in a circular path at constant speed is said to be undergoing:",
+    "options": [
+      "Uniform velocity",
+      "Uniform acceleration",
+      "Centripetal acceleration",
+      "Zero acceleration"
+    ],
+    "correctIndex": 2,
+    "explanation": "Even at constant speed, circular motion involves continuous change in direction, producing centripetal acceleration towards the centre."
+  },
+  {
+    "id": 29,
+    "question": "What is the unit of electrical capacitance?",
+    "options": [
+      "Henry",
+      "Farad",
+      "Ohm",
+      "Tesla"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Farad (F) is the SI unit of capacitance. 1 F = 1 C/V."
+  },
+  {
+    "id": 30,
+    "question": "An object is placed 30 cm from a converging lens of focal length 10 cm. Where is the image formed?",
+    "options": [
+      "10 cm",
+      "15 cm",
+      "20 cm",
+      "30 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "Using 1/f = 1/u + 1/v: 1/10 = 1/30 + 1/v → 1/v = 1/10 - 1/30 = 2/30 = 1/15 → v = 15 cm."
+  },
+  {
+    "id": 31,
+    "question": "What is the relationship between pressure and depth in a fluid at rest?",
+    "options": [
+      "Pressure decreases with depth",
+      "Pressure is independent of depth",
+      "Pressure increases with depth",
+      "Pressure is zero at depth"
+    ],
+    "correctIndex": 2,
+    "explanation": "P = ρgh. Pressure increases linearly with depth due to the weight of the fluid above."
+  },
+  {
+    "id": 32,
+    "question": "Which gas law states that volume is directly proportional to absolute temperature at constant pressure?",
+    "options": [
+      "Boyle's Law",
+      "Charles's Law",
+      "Gay-Lussac's Law",
+      "Avogadro's Law"
+    ],
+    "correctIndex": 1,
+    "explanation": "Charles's Law: V ∝ T (at constant pressure). Boyle's Law is P ∝ 1/V at constant temperature."
+  },
+  {
+    "id": 33,
+    "question": "What is the time period of a pendulum that completes 20 oscillations in 40 seconds?",
+    "options": [
+      "0.5 s",
+      "1 s",
+      "2 s",
+      "4 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "T = total time/number of oscillations = 40/20 = 2 s."
+  },
+  {
+    "id": 34,
+    "question": "A 12 V battery is connected to two 4 Ω resistors in parallel. What is the total current drawn from the battery?",
+    "options": [
+      "1 A",
+      "3 A",
+      "6 A",
+      "12 A"
+    ],
+    "correctIndex": 2,
+    "explanation": "1/R = 1/4 + 1/4 = 1/2 → R = 2 Ω. I = V/R = 12/2 = 6 A."
+  },
+  {
+    "id": 35,
+    "question": "What is the Doppler effect?",
+    "options": [
+      "Change in speed of light",
+      "Apparent change in frequency due to relative motion",
+      "Diffraction of waves",
+      "Polarization of light"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Doppler effect is the apparent change in frequency/wavelength of a wave due to relative motion between source and observer."
+  },
+  {
+    "id": 36,
+    "question": "What is the specific heat capacity of water?",
+    "options": [
+      "2100 J/kg·K",
+      "4200 J/kg·K",
+      "8400 J/kg·K",
+      "12600 J/kg·K"
+    ],
+    "correctIndex": 1,
+    "explanation": "The specific heat capacity of water is approximately 4200 J/kg·K (or 4.2 kJ/kg·K)."
+  },
+  {
+    "id": 37,
+    "question": "An object weighs 30 N in air and 20 N when fully immersed in water. What is the upthrust on the object?",
+    "options": [
+      "5 N",
+      "10 N",
+      "15 N",
+      "20 N"
+    ],
+    "correctIndex": 1,
+    "explanation": "Upthrust = weight in air - weight in fluid = 30 - 20 = 10 N (Archimedes' principle)."
+  },
+  {
+    "id": 38,
+    "question": "What is the SI unit of magnetic flux density?",
+    "options": [
+      "Weber",
+      "Henry",
+      "Tesla",
+      "Gauss"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Tesla (T) is the SI unit of magnetic flux density. 1 T = 1 Wb/m²."
+  },
+  {
+    "id": 39,
+    "question": "A satellite orbits Earth at a constant height. What provides the centripetal force?",
+    "options": [
+      "Rocket thrust",
+      "Air resistance",
+      "Gravitational force",
+      "Electromagnetic force"
+    ],
+    "correctIndex": 2,
+    "explanation": "Gravitational force between Earth and satellite provides the centripetal force needed for circular orbit."
+  },
+  {
+    "id": 40,
+    "question": "What is the relationship between the angles of incidence and reflection?",
+    "options": [
+      "Angle of incidence is greater",
+      "Angle of reflection is greater",
+      "They are equal",
+      "They sum to 90°"
+    ],
+    "correctIndex": 2,
+    "explanation": "Law of reflection: angle of incidence = angle of reflection, both measured from the normal."
+  },
+  {
+    "id": 41,
+    "question": "What is the half-life of a radioactive substance?",
+    "options": [
+      "Time for all atoms to decay",
+      "Time for half the atoms to decay",
+      "Time for activity to double",
+      "Time for radiation to stop"
+    ],
+    "correctIndex": 1,
+    "explanation": "Half-life is the time taken for half the radioactive nuclei in a sample to decay."
+  },
+  {
+    "id": 42,
+    "question": "A force of 20 N acts on an area of 4 m². What is the pressure exerted?",
+    "options": [
+      "4 Pa",
+      "5 Pa",
+      "16 Pa",
+      "80 Pa"
+    ],
+    "correctIndex": 1,
+    "explanation": "P = F/A = 20/4 = 5 Pa."
+  },
+  {
+    "id": 43,
+    "question": "Which type of mirror is used as a shaving mirror?",
+    "options": [
+      "Plane mirror",
+      "Concave mirror",
+      "Convex mirror",
+      "Cylindrical mirror"
+    ],
+    "correctIndex": 1,
+    "explanation": "A concave mirror produces an enlarged, erect image when the object is between the pole and focal point — ideal for shaving."
+  },
+  {
+    "id": 44,
+    "question": "What is the escape velocity from Earth's surface approximately?",
+    "options": [
+      "4 km/s",
+      "8 km/s",
+      "11.2 km/s",
+      "16 km/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Escape velocity from Earth is approximately 11.2 km/s (or about 25,000 mph)."
+  },
+  {
+    "id": 45,
+    "question": "In an AC circuit, what does a capacitor oppose?",
+    "options": [
+      "Direct current",
+      "Alternating current",
+      "Both DC and AC equally",
+      "Neither DC nor AC"
+    ],
+    "correctIndex": 1,
+    "explanation": "A capacitor opposes changes in voltage, presenting capacitive reactance (Xc = 1/2πfC) to AC. It blocks DC after charging."
+  },
+  {
+    "id": 46,
+    "question": "What is the latent heat of fusion?",
+    "options": [
+      "Heat needed to raise temperature by 1°C",
+      "Heat needed to change solid to liquid at constant temperature",
+      "Heat needed to change liquid to gas",
+      "Heat released during freezing"
+    ],
+    "correctIndex": 1,
+    "explanation": "Latent heat of fusion is the heat required to change a substance from solid to liquid at its melting point without temperature change."
+  },
+  {
+    "id": 47,
+    "question": "A ray of light passes from air into glass. What happens to its speed?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Becomes zero"
+    ],
+    "correctIndex": 1,
+    "explanation": "Light slows down when entering a denser medium (glass) from a less dense one (air) because it interacts more with the medium's atoms."
+  },
+  {
+    "id": 48,
+    "question": "What is the unit of frequency?",
+    "options": [
+      "Metre",
+      "Second",
+      "Hertz",
+      "Newton"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Hertz (Hz) is the SI unit of frequency, equal to one cycle per second."
+  },
+  {
+    "id": 49,
+    "question": "Two resistors of 6 Ω and 3 Ω are connected in series. What is their combined resistance?",
+    "options": [
+      "1.5 Ω",
+      "2 Ω",
+      "9 Ω",
+      "18 Ω"
+    ],
+    "correctIndex": 2,
+    "explanation": "In series: R_total = R₁ + R₂ = 6 + 3 = 9 Ω."
+  },
+  {
+    "id": 50,
+    "question": "What is the principle behind the working of an electric generator?",
+    "options": [
+      "Heating effect of current",
+      "Chemical effect of current",
+      "Electromagnetic induction",
+      "Photoelectric effect"
+    ],
+    "correctIndex": 2,
+    "explanation": "Generators work on electromagnetic induction — a changing magnetic flux through a coil induces an EMF (Faraday's law)."
+  },
+  {
+    "id": 51,
+    "question": "What is the approximate wavelength of red light?",
+    "options": [
+      "400 nm",
+      "500 nm",
+      "600 nm",
+      "700 nm"
+    ],
+    "correctIndex": 3,
+    "explanation": "Red light has the longest wavelength in the visible spectrum, approximately 700 nm (range 620–750 nm)."
+  },
+  {
+    "id": 52,
+    "question": "A 2 kg object is lifted vertically through 10 m. What is the work done against gravity? (g = 10 m/s²)",
+    "options": [
+      "100 J",
+      "200 J",
+      "300 J",
+      "400 J"
+    ],
+    "correctIndex": 1,
+    "explanation": "Work = mgh = 2 × 10 × 10 = 200 J."
+  },
+  {
+    "id": 53,
+    "question": "What is the function of a fuse in an electrical circuit?",
+    "options": [
+      "To increase current",
+      "To decrease voltage",
+      "To protect against excessive current",
+      "To store charge"
+    ],
+    "correctIndex": 2,
+    "explanation": "A fuse contains a thin wire that melts when current exceeds a safe value, breaking the circuit and preventing damage."
+  },
+  {
+    "id": 54,
+    "question": "Which of the following is a property of longitudinal waves?",
+    "options": [
+      "Vibrations are perpendicular to direction of travel",
+      "Can only travel through solids",
+      "Vibrations are parallel to direction of travel",
+      "Require a vacuum to travel"
+    ],
+    "correctIndex": 2,
+    "explanation": "In longitudinal waves, particle vibrations are parallel to the direction of wave propagation (e.g., sound waves)."
+  },
+  {
+    "id": 55,
+    "question": "What is the critical angle for a medium with refractive index 1.5?",
+    "options": [
+      "30°",
+      "41.8°",
+      "48.6°",
+      "60°"
+    ],
+    "correctIndex": 1,
+    "explanation": "sin c = 1/n = 1/1.5 = 0.667 → c = sin⁻¹(0.667) ≈ 41.8°."
+  },
+  {
+    "id": 56,
+    "question": "A body of mass 10 kg is moving with velocity 5 m/s. What is its momentum?",
+    "options": [
+      "2 kg·m/s",
+      "15 kg·m/s",
+      "50 kg·m/s",
+      "100 kg·m/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Momentum p = mv = 10 × 5 = 50 kg·m/s."
+  },
+  {
+    "id": 57,
+    "question": "What is the purpose of the commutator in a DC motor?",
+    "options": [
+      "To increase speed",
+      "To reverse current direction in the coil",
+      "To reduce friction",
+      "To generate magnetic field"
+    ],
+    "correctIndex": 1,
+    "explanation": "The commutator reverses current direction in the coil every half-rotation, ensuring continuous rotation in one direction."
+  },
+  {
+    "id": 58,
+    "question": "At what temperature does water have its maximum density?",
+    "options": [
+      "0°C",
+      "4°C",
+      "10°C",
+      "100°C"
+    ],
+    "correctIndex": 1,
+    "explanation": "Water has maximum density at 4°C. Below this, water expands as it approaches freezing point due to hydrogen bonding."
+  },
+  {
+    "id": 59,
+    "question": "What is the relationship between the e.m.f. and terminal voltage of a cell with internal resistance?",
+    "options": [
+      "E.m.f. is always less than terminal voltage",
+      "E.m.f. equals terminal voltage when no current flows",
+      "Terminal voltage is always greater than e.m.f.",
+      "They are unrelated"
+    ],
+    "correctIndex": 1,
+    "explanation": "E = V + Ir. When I = 0 (open circuit), V = E. When current flows, terminal voltage V = E - Ir, which is less than E."
+  },
+  {
+    "id": 60,
+    "question": "What type of wave is a sound wave?",
+    "options": [
+      "Transverse wave",
+      "Longitudinal wave",
+      "Electromagnetic wave",
+      "Standing wave"
+    ],
+    "correctIndex": 1,
+    "explanation": "Sound waves are longitudinal mechanical waves — particles vibrate parallel to the direction of wave travel."
+  },
+  {
+    "id": 61,
+    "question": "What is the SI unit of work?",
+    "options": [
+      "Watt",
+      "Newton",
+      "Joule",
+      "Pascal"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Joule (J) is the SI unit of work and energy. 1 J = 1 N·m."
+  },
+  {
+    "id": 62,
+    "question": "A convex lens forms a real, inverted image of the same size as the object. Where is the object placed?",
+    "options": [
+      "At the focal point",
+      "At twice the focal length",
+      "Between F and 2F",
+      "Beyond 2F"
+    ],
+    "correctIndex": 1,
+    "explanation": "When object is at 2F (centre of curvature), image is also at 2F on the other side, real, inverted, and same size."
+  },
+  {
+    "id": 63,
+    "question": "What is the principle of a thermocouple?",
+    "options": [
+      "Heating effect of current",
+      "Seebeck effect",
+      "Photoelectric effect",
+      "Piezoelectric effect"
+    ],
+    "correctIndex": 1,
+    "explanation": "A thermocouple works on the Seebeck effect — a voltage is generated at the junction of two dissimilar metals when heated."
+  },
+  {
+    "id": 64,
+    "question": "A body falls freely from rest. What is its velocity after falling 20 m? (g = 10 m/s²)",
+    "options": [
+      "10 m/s",
+      "15 m/s",
+      "20 m/s",
+      "25 m/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using v² = u² + 2gh: v² = 0 + 2 × 10 × 20 = 400 → v = 20 m/s."
+  },
+  {
+    "id": 65,
+    "question": "What is the function of a diode in an electrical circuit?",
+    "options": [
+      "To amplify current",
+      "To allow current in one direction only",
+      "To store charge",
+      "To step up voltage"
+    ],
+    "correctIndex": 1,
+    "explanation": "A diode is a semiconductor device that allows current to flow in one direction only (forward bias) and blocks it in reverse."
+  },
+  {
+    "id": 66,
+    "question": "Which of the following correctly describes an isotope?",
+    "options": [
+      "Same atomic number, different mass number",
+      "Different atomic number, same mass number",
+      "Same number of neutrons",
+      "Different number of protons"
+    ],
+    "correctIndex": 0,
+    "explanation": "Isotopes are atoms of the same element (same atomic number/protons) with different numbers of neutrons (different mass numbers)."
+  },
+  {
+    "id": 67,
+    "question": "What is the approximate speed of sound in air at room temperature?",
+    "options": [
+      "150 m/s",
+      "250 m/s",
+      "340 m/s",
+      "500 m/s"
+    ],
+    "correctIndex": 2,
+    "explanation": "The speed of sound in air at 20°C is approximately 340 m/s (or about 1235 km/h)."
+  },
+  {
+    "id": 68,
+    "question": "A 5 Ω resistor and a 10 Ω resistor are connected in parallel. What is the equivalent resistance?",
+    "options": [
+      "2.5 Ω",
+      "3.33 Ω",
+      "7.5 Ω",
+      "15 Ω"
+    ],
+    "correctIndex": 1,
+    "explanation": "1/R = 1/5 + 1/10 = 3/10 → R = 10/3 = 3.33 Ω."
+  },
+  {
+    "id": 69,
+    "question": "What is the relationship between the pressure and volume of a gas at constant temperature?",
+    "options": [
+      "Directly proportional",
+      "Inversely proportional",
+      "No relationship",
+      "Equal"
+    ],
+    "correctIndex": 1,
+    "explanation": "Boyle's Law: P ∝ 1/V at constant temperature. Pressure and volume are inversely proportional."
+  },
+  {
+    "id": 70,
+    "question": "What is the unit of electric field strength?",
+    "options": [
+      "Newton per Coulomb",
+      "Volt per metre",
+      "Both A and B",
+      "Newton per metre"
+    ],
+    "correctIndex": 2,
+    "explanation": "Electric field strength E = F/q (N/C) or E = V/d (V/m). Both N/C and V/m are correct units."
+  },
+  {
+    "id": 71,
+    "question": "What is the time taken for the Earth to complete one rotation on its axis?",
+    "options": [
+      "12 hours",
+      "24 hours",
+      "365 days",
+      "30 days"
+    ],
+    "correctIndex": 1,
+    "explanation": "Earth completes one rotation on its axis in approximately 24 hours (a solar day)."
+  },
+  {
+    "id": 72,
+    "question": "A transformer is used to step down voltage from 240 V to 12 V. If the primary has 800 turns, how many turns are in the secondary?",
+    "options": [
+      "20",
+      "30",
+      "40",
+      "50"
+    ],
+    "correctIndex": 2,
+    "explanation": "Vs/Vp = Ns/Np → 12/240 = Ns/800 → Ns = 800 × 12/240 = 800/20 = 40 turns."
+  },
+  {
+    "id": 73,
+    "question": "What is the phenomenon where light bends as it passes from one medium to another?",
+    "options": [
+      "Reflection",
+      "Refraction",
+      "Diffraction",
+      "Dispersion"
+    ],
+    "correctIndex": 1,
+    "explanation": "Refraction is the bending of light as it passes from one medium to another due to change in speed."
+  },
+  {
+    "id": 74,
+    "question": "What is the SI unit of power?",
+    "options": [
+      "Joule",
+      "Newton",
+      "Watt",
+      "Ampere"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Watt (W) is the SI unit of power. 1 W = 1 J/s."
+  },
+  {
+    "id": 75,
+    "question": "A stone is thrown vertically upward with initial velocity 20 m/s. How high does it rise? (g = 10 m/s²)",
+    "options": [
+      "10 m",
+      "15 m",
+      "20 m",
+      "25 m"
+    ],
+    "correctIndex": 2,
+    "explanation": "Using v² = u² - 2gh: 0 = 20² - 2×10×h → h = 400/20 = 20 m."
+  },
+  {
+    "id": 76,
+    "question": "What is the function of the earth wire in a three-pin plug?",
+    "options": [
+      "To carry current to the appliance",
+      "To provide a safe path for fault current",
+      "To reduce voltage",
+      "To increase efficiency"
+    ],
+    "correctIndex": 1,
+    "explanation": "The earth wire provides a low-resistance path to ground for fault current, preventing electric shock if live wire touches the metal casing."
+  },
+  {
+    "id": 77,
+    "question": "Which particle is responsible for the chemical properties of an element?",
+    "options": [
+      "Proton",
+      "Neutron",
+      "Electron",
+      "Nucleus"
+    ],
+    "correctIndex": 2,
+    "explanation": "Electrons in the outer shell (valence electrons) determine how an atom bonds and reacts, thus defining chemical properties."
+  },
+  {
+    "id": 78,
+    "question": "What is the principle of conservation of energy?",
+    "options": [
+      "Energy can be created",
+      "Energy can be destroyed",
+      "Energy cannot be created or destroyed, only transformed",
+      "Energy increases over time"
+    ],
+    "correctIndex": 2,
+    "explanation": "Energy cannot be created or destroyed, only converted from one form to another (First Law of Thermodynamics)."
+  },
+  {
+    "id": 79,
+    "question": "A car of mass 1000 kg is moving at 20 m/s. What is its kinetic energy?",
+    "options": [
+      "100000 J",
+      "200000 J",
+      "300000 J",
+      "400000 J"
+    ],
+    "correctIndex": 1,
+    "explanation": "KE = ½mv² = ½ × 1000 × 20² = 500 × 400 = 200000 J."
+  },
+  {
+    "id": 80,
+    "question": "What is the pitch of a sound related to?",
+    "options": [
+      "Amplitude",
+      "Frequency",
+      "Speed",
+      "Wavelength"
+    ],
+    "correctIndex": 1,
+    "explanation": "Pitch is determined by frequency — higher frequency means higher pitch. Amplitude determines loudness."
+  },
+  {
+    "id": 81,
+    "question": "What is the approximate value of atmospheric pressure at sea level?",
+    "options": [
+      "1000 Pa",
+      "10000 Pa",
+      "100000 Pa",
+      "1000000 Pa"
+    ],
+    "correctIndex": 2,
+    "explanation": "Standard atmospheric pressure is approximately 101325 Pa, often rounded to 100000 Pa or 1.01 × 10⁵ Pa."
+  },
+  {
+    "id": 82,
+    "question": "In a nuclear reactor, what is the function of control rods?",
+    "options": [
+      "To speed up reactions",
+      "To absorb neutrons and control reaction rate",
+      "To produce electricity",
+      "To cool the reactor"
+    ],
+    "correctIndex": 1,
+    "explanation": "Control rods (made of boron or cadmium) absorb neutrons, controlling the rate of nuclear fission by regulating available neutrons."
+  },
+  {
+    "id": 83,
+    "question": "What is the magnification of a plane mirror?",
+    "options": [
+      "0",
+      "0.5",
+      "1",
+      "2"
+    ],
+    "correctIndex": 2,
+    "explanation": "A plane mirror produces an image of the same size as the object, so magnification = image height/object height = 1."
+  },
+  {
+    "id": 84,
+    "question": "A 2 μF capacitor is charged to 100 V. What is the energy stored?",
+    "options": [
+      "0.001 J",
+      "0.01 J",
+      "0.1 J",
+      "1 J"
+    ],
+    "correctIndex": 1,
+    "explanation": "E = ½CV² = ½ × 2×10⁻⁶ × 100² = ½ × 2×10⁻⁶ × 10000 = 0.01 J."
+  },
+  {
+    "id": 85,
+    "question": "What is the relationship between current and voltage for an ohmic conductor at constant temperature?",
+    "options": [
+      "Current is inversely proportional to voltage",
+      "Current is directly proportional to voltage",
+      "Current is independent of voltage",
+      "Current decreases as voltage increases"
+    ],
+    "correctIndex": 1,
+    "explanation": "Ohm's Law: V = IR. At constant temperature, current is directly proportional to voltage for ohmic conductors."
+  },
+  {
+    "id": 86,
+    "question": "What is the approximate focal length of the human eye lens?",
+    "options": [
+      "1.5 cm",
+      "2.5 cm",
+      "3.5 cm",
+      "4.5 cm"
+    ],
+    "correctIndex": 1,
+    "explanation": "The focal length of the human eye lens is approximately 2.5 cm (or about 1.7 cm to 2.5 cm depending on accommodation)."
+  },
+  {
+    "id": 87,
+    "question": "A pendulum has a length of 1 m. What is its approximate period? (g = 10 m/s²)",
+    "options": [
+      "1 s",
+      "1.5 s",
+      "2 s",
+      "2.5 s"
+    ],
+    "correctIndex": 2,
+    "explanation": "T = 2π√(L/g) = 2π√(1/10) = 2π × 0.316 ≈ 1.99 s ≈ 2 s."
+  },
+  {
+    "id": 88,
+    "question": "What is the function of a galvanometer?",
+    "options": [
+      "To measure high currents",
+      "To detect and measure small currents",
+      "To step up voltage",
+      "To convert AC to DC"
+    ],
+    "correctIndex": 1,
+    "explanation": "A galvanometer is a sensitive instrument used to detect and measure small electric currents."
+  },
+  {
+    "id": 89,
+    "question": "What happens to the wavelength of light when it enters a denser medium?",
+    "options": [
+      "Increases",
+      "Decreases",
+      "Remains the same",
+      "Becomes zero"
+    ],
+    "correctIndex": 1,
+    "explanation": "When light enters a denser medium, its speed decreases while frequency stays constant, so wavelength decreases (v = fλ)."
+  },
+  {
+    "id": 90,
+    "question": "What is the SI unit of electric potential difference?",
+    "options": [
+      "Ampere",
+      "Ohm",
+      "Volt",
+      "Watt"
+    ],
+    "correctIndex": 2,
+    "explanation": "The Volt (V) is the SI unit of electric potential difference. 1 V = 1 J/C."
+  },
+  {
+    "id": 91,
+    "question": "A body is in equilibrium when:",
+    "options": [
+      "It is at rest only",
+      "It is moving with constant velocity",
+      "The resultant force on it is zero",
+      "It is accelerating uniformly"
+    ],
+    "correctIndex": 2,
+    "explanation": "A body is in equilibrium when the resultant force (and torque) on it is zero — it may be at rest or moving with constant velocity."
+  },
+  {
+    "id": 92,
+    "question": "What is the approximate energy equivalence of 1 atomic mass unit (u)?",
+    "options": [
+      "511 keV",
+      "931 MeV",
+      "1.02 GeV",
+      "2.04 GeV"
+    ],
+    "correctIndex": 1,
+    "explanation": "1 u ≈ 931.5 MeV/c² (from E = mc²). This is a standard value used in nuclear physics."
+  },
+  {
+    "id": 93,
+    "question": "Which of the following is a property of alpha radiation?",
+    "options": [
+      "High penetrating power",
+      "Negatively charged",
+      "Helium nuclei (2 protons + 2 neutrons)",
+      "Travels at speed of light"
+    ],
+    "correctIndex": 2,
+    "explanation": "Alpha particles are helium nuclei (⁴He²⁺), consisting of 2 protons and 2 neutrons. They have low penetration but high ionization."
+  },
+  {
+    "id": 94,
+    "question": "What is the relationship between the angles of incidence and refraction?",
+    "options": [
+      "They are always equal",
+      "They are related by Snell's law",
+      "They sum to 90°",
+      "They are unrelated"
+    ],
+    "correctIndex": 1,
+    "explanation": "Snell's Law: n₁sinθ₁ = n₂sinθ₂ relates the angles of incidence and refraction to the refractive indices of the media."
+  },
+  {
+    "id": 95,
+    "question": "A 12 V battery is connected across a 6 Ω resistor. What is the power dissipated?",
+    "options": [
+      "12 W",
+      "18 W",
+      "24 W",
+      "36 W"
+    ],
+    "correctIndex": 2,
+    "explanation": "P = V²/R = 12²/6 = 144/6 = 24 W."
+  },
+  {
+    "id": 96,
+    "question": "What is the approximate threshold frequency for the photoelectric effect in most metals?",
+    "options": [
+      "Infrared region",
+      "Visible light region",
+      "Ultraviolet region",
+      "X-ray region"
+    ],
+    "correctIndex": 2,
+    "explanation": "The threshold frequency for most metals lies in the ultraviolet region, which is why UV light commonly causes photoelectric emission."
+  },
+  {
+    "id": 97,
+    "question": "What is the SI unit of magnetic flux?",
+    "options": [
+      "Tesla",
+      "Weber",
+      "Henry",
+      "Gauss"
+    ],
+    "correctIndex": 1,
+    "explanation": "The Weber (Wb) is the SI unit of magnetic flux. 1 Wb = 1 T·m²."
+  },
+  {
+    "id": 98,
+    "question": "A satellite is in a stable orbit around Earth. What provides the centripetal force?",
+    "options": [
+      "Centrifugal force",
+      "Gravitational force",
+      "Air resistance",
+      "Rocket thrust"
+    ],
+    "correctIndex": 1,
+    "explanation": "Gravitational force between Earth and satellite provides the necessary centripetal force for orbital motion."
+  },
+  {
+    "id": 99,
+    "question": "What is the approximate value of the universal gravitational constant G?",
+    "options": [
+      "6.67 × 10⁻¹¹ N·m²/kg²",
+      "9.8 N/kg",
+      "3 × 10⁸ m/s",
+      "1.6 × 10⁻¹⁹ C"
+    ],
+    "correctIndex": 0,
+    "explanation": "G ≈ 6.67 × 10⁻¹¹ N·m²/kg². This is a fundamental constant in Newton's law of universal gravitation."
+  },
+  {
+    "id": 100,
+    "question": "What is the total resistance of three 6 Ω resistors connected in parallel?",
+    "options": [
+      "2 Ω",
+      "3 Ω",
+      "9 Ω",
+      "18 Ω"
+    ],
+    "correctIndex": 0,
+    "explanation": "1/R = 1/6 + 1/6 + 1/6 = 3/6 = 1/2 → R = 2 Ω."
+  }
+]

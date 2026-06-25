@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GIQA – Gamified Interactive Quiz Application</title>
+  <link rel="stylesheet" href="style.css" />
+<base target="_blank">
+</head>
+<body>
+
+  <!-- ══ STREAK POPUP ══ -->
+  <div id="streak-popup" role="status" aria-live="assertive">
+    🔥 <span id="streak-popup-text">3 STREAK!</span>
+  </div>
+
+  <!-- ══ CONFETTI CONTAINER ══ -->
+  <div id="confetti-container" aria-hidden="true"></div>
+
+  <!-- ══════════════════════════════════
+       HOME SCREEN
+  ══════════════════════════════════ -->
+  <div id="screen-home" class="screen bg-home active" role="main">
+    <div class="home-glow-ring" aria-hidden="true"></div>
+    <div class="home-star" aria-hidden="true">✦</div>
+
+    <div class="logo-wrap" aria-hidden="true">📖</div>
+
+    <h1 class="home-title anim-slide-up">GIQA</h1>
+    <p class="home-subtitle anim-slide-up" style="animation-delay:.05s">Gamified Interactive Quiz Application</p>
+
+    <div class="feature-pills anim-slide-up" style="animation-delay:.12s">
+      <span class="pill">⚡ Streak Bonuses</span>
+      <span class="pill">🏆 Live Scoring</span>
+      <span class="pill">⏱ Timed Quiz</span>
+      <span class="pill">🛡 Works Offline</span>
+    </div>
+
+    <div class="cta-group anim-slide-up" style="animation-delay:.18s">
+      <button class="btn-primary" id="btn-start" data-testid="button-start-quiz">Start Quiz</button>
+      <button class="btn-secondary" id="btn-resume" data-testid="button-resume-quiz" style="display:none">Resume</button>
+      <button class="btn-secondary" id="btn-history" data-testid="button-history">📋 History</button>
+    </div>
+
+    <div class="how-card glass anim-slide-up" style="animation-delay:.24s">
+      <h2>How it works</h2>
+      <ul>
+        <li><span class="num">1.</span> Choose a subject — Maths, Further Maths, Physics, Chemistry, or Programming</li>
+        <li><span class="num">2.</span> Build streaks for bonus points — more consecutive correct = more XP</li>
+        <li><span class="num">3.</span> See instant explanations after every answer</li>
+        <li><span class="num">4.</span> Review your answers and check your history anytime, even offline</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       SUBJECT SELECTION SCREEN
+  ══════════════════════════════════ -->
+  <div id="screen-subjects" class="screen bg-home" role="main" aria-label="Choose a subject">
+    <div class="subjects-header">
+      <button class="btn-back" id="btn-back-home" data-testid="button-back-home">‹ Back</button>
+      <span class="review-title">Choose a Subject</span>
+    </div>
+    <div class="subject-grid" id="subject-grid" data-testid="subject-grid"></div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       QUIZ SCREEN
+  ══════════════════════════════════ -->
+  <div id="screen-quiz" class="screen bg-quiz" role="main" aria-label="Quiz">
+
+    <div class="quiz-header">
+      <div class="status-bar" role="toolbar" aria-label="Quiz status">
+
+        <!-- Score badge -->
+        <div class="badge" aria-live="polite" aria-label="Score">
+          ⭐ <span id="badge-score" data-testid="badge-score">0</span>
+        </div>
+
+        <!-- Streak badge -->
+        <div class="badge badge-streak" id="badge-streak-wrap" aria-live="polite" aria-label="Streak">
+          🔥 <span id="badge-streak" data-testid="badge-streak">0</span>
+        </div>
+
+        <div class="spacer"></div>
+
+        <!-- Timer -->
+        <div class="badge badge-timer" id="badge-timer" data-testid="timer-display" aria-live="polite" aria-label="Time remaining">
+          ⏱ <span id="timer-text">15:00</span>
+        </div>
+
+        <!-- Quit button -->
+        <button class="badge" id="btn-quit" data-testid="button-quit" style="cursor:pointer;background:rgba(239,68,68,0.25);border-color:#ef4444;color:#ef4444;font-family:inherit;font-size:13px;font-weight:700;">Quit</button>
+
+        <!-- Question counter -->
+        <div class="q-counter" id="q-counter" aria-label="Question number">1 / 20</div>
+      </div>
+
+      <!-- Progress bar -->
+      <div class="progress-track" aria-label="Quiz progress">
+        <div
+          id="prog-fill"
+          role="progressbar"
+          aria-valuemin="0"
+          aria-valuemax="100"
+          aria-valuenow="0"
+          class="anim-prog-glow"
+          style="width:0%"
+        ></div>
+      </div>
+    </div>
+
+    <div class="quiz-body">
+      <div class="quiz-inner">
+
+        <!-- Question card -->
+        <div class="question-card glass" id="question-card">
+          <div class="q-label" id="q-label">Question 1</div>
+          <p class="q-text" id="q-text"></p>
+        </div>
+
+        <!-- Options — event delegation on this container -->
+        <div class="options-grid" id="options-grid" data-testid="options-grid"></div>
+
+        <!-- Explanation panel -->
+        <div class="explanation-box glass" id="explanation-box">
+          <div class="explanation-result" id="explanation-result"></div>
+          <p class="explanation-text" id="explanation-text"></p>
+        </div>
+
+        <!-- Nav row -->
+        <div class="nav-row" id="nav-row" style="display:none">
+          <button class="btn-next" id="btn-next" data-testid="button-next-question">
+            Next Question <span aria-hidden="true">›</span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Screen reader live region -->
+    <div class="sr-only" id="sr-status" aria-live="polite"></div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       RESULTS SCREEN
+  ══════════════════════════════════ -->
+  <div id="screen-results" class="screen bg-results" role="main" aria-label="Quiz results">
+    <div class="trophy-wrap anim-bounce-in" aria-hidden="true" id="trophy-icon">🏆</div>
+    <h1 class="results-title anim-slide-up" style="animation-delay:.05s">Quiz Complete!</h1>
+    <p class="results-grade anim-slide-up" style="animation-delay:.08s" id="results-grade"></p>
+    <p class="results-reason anim-slide-up" style="animation-delay:.10s" id="results-reason"></p>
+
+    <div class="stats-grid anim-slide-up" style="animation-delay:.12s">
+      <div class="stat-card glass">
+        <div class="stat-icon">⭐</div>
+        <div class="stat-value" id="stat-score">0</div>
+        <div class="stat-label">Total Score</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-icon">🎯</div>
+        <div class="stat-value" id="stat-accuracy">0%</div>
+        <div class="stat-label">Accuracy</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-icon">📚</div>
+        <div class="stat-value" id="stat-correct">0/0</div>
+        <div class="stat-label">Correct</div>
+      </div>
+      <div class="stat-card glass">
+        <div class="stat-icon">🔥</div>
+        <div class="stat-value" id="stat-streak">×0</div>
+        <div class="stat-label">Best Streak</div>
+      </div>
+    </div>
+
+    <div class="score-note glass anim-slide-up" style="animation-delay:.18s">
+      <strong>Base:</strong> 10 pts per correct answer ·
+      <em>Streak bonus:</em> +5 pts per consecutive hit
+    </div>
+
+    <div class="results-btns anim-slide-up" style="animation-delay:.22s">
+      <button class="btn-primary" id="btn-restart" data-testid="button-restart">🔄 Try Again</button>
+      <button class="btn-secondary" id="btn-review" data-testid="button-review">📖 Review</button>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       REVIEW SCREEN
+  ══════════════════════════════════ -->
+  <div id="screen-review" class="screen bg-review" role="main" aria-label="Answer review">
+
+    <div class="review-header">
+      <button class="btn-back" id="btn-back-review" data-testid="button-back-review">‹ Back to Results</button>
+      <span class="review-title">Answer Review</span>
+    </div>
+
+    <div class="review-list">
+      <div class="review-inner" id="review-list"></div>
+    </div>
+
+    <div class="review-footer">
+      <div class="review-footer-inner">
+        <button class="btn-full" id="btn-back-results" data-testid="button-back-results">Back to Results</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════
+       HISTORY SCREEN
+       Offline, localStorage-backed record of past
+       attempts (finished vs timed-out), per device.
+  ══════════════════════════════════ -->
+  <div id="screen-history" class="screen bg-review" role="main" aria-label="Quiz history">
+
+    <div class="review-header">
+      <button class="btn-back" id="btn-back-home-history" data-testid="button-back-home-history">‹ Back</button>
+      <span class="review-title">Your History</span>
+    </div>
+
+    <div class="review-list">
+      <div class="review-inner" id="history-list"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

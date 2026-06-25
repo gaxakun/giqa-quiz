@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What does CSS stand for?",
+    "options": [
+      "Cascading Style Sheets",
+      "Computer Style Sheets",
+      "Creative Style System",
+      "Colorful Style Sheets"
+    ],
+    "correctIndex": 0,
+    "explanation": "CSS = Cascading Style Sheets, used to style and layout web pages."
+  },
+  {
+    "id": 2,
+    "question": "Which property changes the text color?",
+    "options": [
+      "color",
+      "text-color",
+      "font-color",
+      "foreground"
+    ],
+    "correctIndex": 0,
+    "explanation": "The color property sets the foreground/text color of an element."
+  },
+  {
+    "id": 3,
+    "question": "How do you select an element with id 'header' in CSS?",
+    "options": [
+      "#header",
+      ".header",
+      "header",
+      "*header"
+    ],
+    "correctIndex": 0,
+    "explanation": "The # symbol selects an element by its id attribute."
+  },
+  {
+    "id": 4,
+    "question": "Which property sets the background color?",
+    "options": [
+      "background-color",
+      "bgcolor",
+      "color-background",
+      "background"
+    ],
+    "correctIndex": 0,
+    "explanation": "background-color sets the solid color behind an element's content."
+  },
+  {
+    "id": 5,
+    "question": "What is the default position value in CSS?",
+    "options": [
+      "static",
+      "relative",
+      "absolute",
+      "fixed"
+    ],
+    "correctIndex": 0,
+    "explanation": "static is the default position; elements follow normal document flow."
+  },
+  {
+    "id": 6,
+    "question": "Which property controls the space inside an element's border?",
+    "options": [
+      "padding",
+      "margin",
+      "border-spacing",
+      "gap"
+    ],
+    "correctIndex": 0,
+    "explanation": "padding is the space between an element's content and its border."
+  },
+  {
+    "id": 7,
+    "question": "Which property controls the space outside an element's border?",
+    "options": [
+      "margin",
+      "padding",
+      "border",
+      "spacing"
+    ],
+    "correctIndex": 0,
+    "explanation": "margin is the space outside the border, between the element and its neighbors."
+  },
+  {
+    "id": 8,
+    "question": "How do you make text bold in CSS?",
+    "options": [
+      "font-weight: bold",
+      "font-style: bold",
+      "text-bold: true",
+      "bold: true"
+    ],
+    "correctIndex": 0,
+    "explanation": "font-weight: bold makes text appear bold."
+  },
+  {
+    "id": 9,
+    "question": "Which display value makes an element a flex container?",
+    "options": [
+      "flex",
+      "block",
+      "inline",
+      "grid"
+    ],
+    "correctIndex": 0,
+    "explanation": "display: flex enables the Flexbox layout model on an element."
+  },
+  {
+    "id": 10,
+    "question": "What unit is relative to the font size of the parent element?",
+    "options": [
+      "em",
+      "px",
+      "rem",
+      "vh"
+    ],
+    "correctIndex": 0,
+    "explanation": "em is relative to the font size of the parent element (or the element itself for font-size)."
+  },
+  {
+    "id": 11,
+    "question": "Which property rounds the corners of an element?",
+    "options": [
+      "border-radius",
+      "corner-radius",
+      "roundness",
+      "border-corner"
+    ],
+    "correctIndex": 0,
+    "explanation": "border-radius rounds the corners of an element's border box."
+  },
+  {
+    "id": 12,
+    "question": "How do you select all <p> elements inside a <div>?",
+    "options": [
+      "div p",
+      "div > p",
+      "div + p",
+      "div.p"
+    ],
+    "correctIndex": 0,
+    "explanation": "div p is a descendant selector that selects all <p> elements inside <div>."
+  },
+  {
+    "id": 13,
+    "question": "Which property changes the font family?",
+    "options": [
+      "font-family",
+      "font-type",
+      "text-font",
+      "typeface"
+    ],
+    "correctIndex": 0,
+    "explanation": "font-family specifies the typeface (e.g., Arial, serif)."
+  },
+  {
+    "id": 14,
+    "question": "What does z-index control?",
+    "options": [
+      "Stacking order of positioned elements",
+      "Zoom level",
+      "Z-axis rotation",
+      "Element width"
+    ],
+    "correctIndex": 0,
+    "explanation": "z-index controls the vertical stacking order of positioned elements (higher values appear on top)."
+  },
+  {
+    "id": 15,
+    "question": "Which value of position is relative to the viewport?",
+    "options": [
+      "fixed",
+      "absolute",
+      "relative",
+      "sticky"
+    ],
+    "correctIndex": 0,
+    "explanation": "position: fixed positions an element relative to the viewport and keeps it there during scrolling."
+  },
+  {
+    "id": 16,
+    "question": "How do you center a block element horizontally?",
+    "options": [
+      "margin: 0 auto",
+      "align: center",
+      "text-align: center",
+      "float: center"
+    ],
+    "correctIndex": 0,
+    "explanation": "margin: 0 auto sets left and right margins to auto, centering a block-level element."
+  },
+  {
+    "id": 17,
+    "question": "Which property sets the transparency of an element?",
+    "options": [
+      "opacity",
+      "transparency",
+      "visibility",
+      "alpha"
+    ],
+    "correctIndex": 0,
+    "explanation": "opacity: 0 is fully transparent; opacity: 1 is fully opaque."
+  },
+  {
+    "id": 18,
+    "question": "What is the box-sizing: border-box property used for?",
+    "options": [
+      "Includes padding and border in the element's total width/height",
+      "Excludes padding from width",
+      "Makes the box circular",
+      "Adds a border automatically"
+    ],
+    "correctIndex": 0,
+    "explanation": "border-box includes padding and border inside the specified width/height, making layout easier."
+  },
+  {
+    "id": 19,
+    "question": "Which pseudo-class selects an element when hovered?",
+    "options": [
+      ":hover",
+      ":active",
+      ":focus",
+      ":visited"
+    ],
+    "correctIndex": 0,
+    "explanation": ":hover applies styles when the user points to an element with a mouse."
+  },
+  {
+    "id": 20,
+    "question": "Which property creates a shadow around an element's box?",
+    "options": [
+      "box-shadow",
+      "text-shadow",
+      "shadow",
+      "drop-shadow"
+    ],
+    "correctIndex": 0,
+    "explanation": "box-shadow adds a shadow effect around an element's rectangular frame."
+  }
+]

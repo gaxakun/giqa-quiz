@@ -1,0 +1,43 @@
+[
+  {
+    "id": "maths",
+    "label": "Mathematics",
+    "icon": "📐",
+    "file": "data/maths.json",
+    "questionCount": 100,
+    "durationMins": 40
+  },
+  {
+    "id": "further-maths",
+    "label": "Further Mathematics",
+    "icon": "∑",
+    "file": "data/further-maths.json",
+    "questionCount": 100,
+    "durationMins": 40
+  },
+  {
+    "id": "physics",
+    "label": "Physics",
+    "icon": "⚛",
+    "file": "data/physics.json",
+    "questionCount": 100,
+    "durationMins": 40
+  },
+  {
+    "id": "chemistry",
+    "label": "Chemistry",
+    "icon": "🧪",
+    "file": "data/chemistry.json",
+    "questionCount": 100,
+    "durationMins": 40
+  },
+  {
+    "id": "programming",
+    "label": "Programming",
+    "icon": "💻",
+    "file": "data/programming.json",
+    "questionCount": 10,
+    "durationMins": 40,
+    "externalUrl": "programming.html"
+  }
+]

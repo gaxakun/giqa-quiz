@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "What does HTML stand for?",
+    "options": [
+      "HyperText Markup Language",
+      "HighText Machine Language",
+      "HyperText Machine Language",
+      "HyperTool Markup Language"
+    ],
+    "correctIndex": 0,
+    "explanation": "HTML = HyperText Markup Language, the standard language for creating web pages."
+  },
+  {
+    "id": 2,
+    "question": "Which tag is used to create a hyperlink?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<url>"
+    ],
+    "correctIndex": 0,
+    "explanation": "The <a> (anchor) tag creates hyperlinks using the href attribute."
+  },
+  {
+    "id": 3,
+    "question": "Which tag defines the main content of an HTML document?",
+    "options": [
+      "<body>",
+      "<head>",
+      "<main>",
+      "<content>"
+    ],
+    "correctIndex": 0,
+    "explanation": "The <body> tag contains the visible content of the HTML document."
+  },
+  {
+    "id": 4,
+    "question": "What is the correct tag for the largest heading?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<head>",
+      "<heading>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<h1> is the largest heading; <h6> is the smallest."
+  },
+  {
+    "id": 5,
+    "question": "Which attribute is used to provide alternative text for an image?",
+    "options": [
+      "alt",
+      "src",
+      "title",
+      "desc"
+    ],
+    "correctIndex": 0,
+    "explanation": "The alt attribute provides alternative text for screen readers and when images fail to load."
+  },
+  {
+    "id": 6,
+    "question": "Which tag creates an unordered list?",
+    "options": [
+      "<ul>",
+      "<ol>",
+      "<li>",
+      "<list>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<ul> creates an unordered (bulleted) list; <ol> creates an ordered (numbered) list."
+  },
+  {
+    "id": 7,
+    "question": "What is the correct HTML tag for inserting a line break?",
+    "options": [
+      "<br>",
+      "<break>",
+      "<lb>",
+      "<hr>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<br> is the empty tag used to insert a single line break."
+  },
+  {
+    "id": 8,
+    "question": "Which tag is used to define a table row?",
+    "options": [
+      "<tr>",
+      "<td>",
+      "<th>",
+      "<row>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<tr> (table row) defines a row in an HTML table."
+  },
+  {
+    "id": 9,
+    "question": "What does the <title> tag define?",
+    "options": [
+      "The document title shown in the browser tab",
+      "The main heading",
+      "A tooltip",
+      "The file name"
+    ],
+    "correctIndex": 0,
+    "explanation": "<title> sets the text that appears in the browser tab and search engine results."
+  },
+  {
+    "id": 10,
+    "question": "Which input type is used for a password field?",
+    "options": [
+      "password",
+      "text",
+      "hidden",
+      "secret"
+    ],
+    "correctIndex": 0,
+    "explanation": "<input type='password'> masks the characters entered by the user."
+  },
+  {
+    "id": 11,
+    "question": "Which tag is used to group block-level elements for styling?",
+    "options": [
+      "<div>",
+      "<span>",
+      "<group>",
+      "<section>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<div> is a block-level container used to group elements for CSS styling and layout."
+  },
+  {
+    "id": 12,
+    "question": "What is the purpose of the <!DOCTYPE html> declaration?",
+    "options": [
+      "To tell the browser which HTML version is being used",
+      "To link CSS files",
+      "To create a comment",
+      "To start the body section"
+    ],
+    "correctIndex": 0,
+    "explanation": "<!DOCTYPE html> tells the browser to render the page in standards mode using HTML5."
+  },
+  {
+    "id": 13,
+    "question": "Which tag is used to embed a video in HTML5?",
+    "options": [
+      "<video>",
+      "<media>",
+      "<movie>",
+      "<embed>"
+    ],
+    "correctIndex": 0,
+    "explanation": "The <video> tag is the HTML5 standard for embedding video content."
+  },
+  {
+    "id": 14,
+    "question": "Which attribute specifies the URL of an image?",
+    "options": [
+      "src",
+      "href",
+      "url",
+      "link"
+    ],
+    "correctIndex": 0,
+    "explanation": "The src attribute specifies the source URL of an image in the <img> tag."
+  },
+  {
+    "id": 15,
+    "question": "What is the correct tag for a table header cell?",
+    "options": [
+      "<th>",
+      "<td>",
+      "<tr>",
+      "<header>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<th> (table header) defines a header cell in a table, typically rendered bold and centered."
+  },
+  {
+    "id": 16,
+    "question": "Which tag defines a semantic section in a document?",
+    "options": [
+      "<section>",
+      "<div>",
+      "<span>",
+      "<block>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<section> is a semantic HTML5 tag that defines a thematic grouping of content."
+  },
+  {
+    "id": 17,
+    "question": "How do you create a checkbox in HTML?",
+    "options": [
+      "<input type='checkbox'>",
+      "<checkbox>",
+      "<input type='check'>",
+      "<check>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<input type='checkbox'> creates a checkbox form control."
+  },
+  {
+    "id": 18,
+    "question": "Which tag is used to define the navigation links in HTML5?",
+    "options": [
+      "<nav>",
+      "<navigation>",
+      "<menu>",
+      "<links>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<nav> is a semantic HTML5 element used to define a block of navigation links."
+  },
+  {
+    "id": 19,
+    "question": "What is the purpose of the <meta charset='UTF-8'> tag?",
+    "options": [
+      "To specify the character encoding",
+      "To link a stylesheet",
+      "To add keywords for SEO",
+      "To set the viewport"
+    ],
+    "correctIndex": 0,
+    "explanation": "It tells the browser to use UTF-8 character encoding, supporting most characters and symbols."
+  },
+  {
+    "id": 20,
+    "question": "Which tag creates a dropdown list in a form?",
+    "options": [
+      "<select>",
+      "<dropdown>",
+      "<option>",
+      "<list>"
+    ],
+    "correctIndex": 0,
+    "explanation": "<select> creates a dropdown list; <option> tags inside it define the available choices."
+  }
+]

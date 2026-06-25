@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "question": "Which keyword declares a constant variable in JavaScript?",
+    "options": [
+      "const",
+      "let",
+      "var",
+      "fixed"
+    ],
+    "correctIndex": 0,
+    "explanation": "const declares a variable that cannot be reassigned after initialization."
+  },
+  {
+    "id": 2,
+    "question": "What is the output of console.log(typeof 'Hello')?",
+    "options": [
+      "string",
+      "text",
+      "String",
+      "char"
+    ],
+    "correctIndex": 0,
+    "explanation": "typeof 'Hello' returns the string 'string' in JavaScript."
+  },
+  {
+    "id": 3,
+    "question": "Which operator checks both value and type equality?",
+    "options": [
+      "===",
+      "==",
+      "=",
+      "!=="
+    ],
+    "correctIndex": 0,
+    "explanation": "=== checks strict equality (value AND type). == checks loose equality with type coercion."
+  },
+  {
+    "id": 4,
+    "question": "What does document.getElementById() do?",
+    "options": [
+      "Selects an HTML element by its id",
+      "Creates a new element",
+      "Gets all elements by class",
+      "Changes the page title"
+    ],
+    "correctIndex": 0,
+    "explanation": "It returns the first HTML element with the specified id attribute."
+  },
+  {
+    "id": 5,
+    "question": "Which method adds an event listener to an element?",
+    "options": [
+      "addEventListener()",
+      "onClick()",
+      "attachEvent()",
+      "listen()"
+    ],
+    "correctIndex": 0,
+    "explanation": "element.addEventListener('click', handler) attaches an event handler to an element."
+  },
+  {
+    "id": 6,
+    "question": "What is the result of 5 + '5' in JavaScript?",
+    "options": [
+      "'55'",
+      "10",
+      "25",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "When adding a number to a string, JavaScript converts the number to a string and concatenates: '55'."
+  },
+  {
+    "id": 7,
+    "question": "Which function is used to parse a string to an integer?",
+    "options": [
+      "parseInt()",
+      "parseInteger()",
+      "toInt()",
+      "Number()"
+    ],
+    "correctIndex": 0,
+    "explanation": "parseInt('42') converts the string '42' to the integer 42."
+  },
+  {
+    "id": 8,
+    "question": "What does the Array.push() method do?",
+    "options": [
+      "Adds an element to the end",
+      "Removes the last element",
+      "Adds to the beginning",
+      "Sorts the array"
+    ],
+    "correctIndex": 0,
+    "explanation": "push() adds one or more elements to the end of an array and returns the new length."
+  },
+  {
+    "id": 9,
+    "question": "Which statement is used to create a loop that runs while a condition is true?",
+    "options": [
+      "while",
+      "for",
+      "do",
+      "loop"
+    ],
+    "correctIndex": 0,
+    "explanation": "while (condition) { ... } executes the block as long as the condition evaluates to true."
+  },
+  {
+    "id": 10,
+    "question": "What is the output of Boolean('false')?",
+    "options": [
+      "true",
+      "false",
+      "undefined",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Any non-empty string is truthy in JavaScript, so Boolean('false') returns true."
+  },
+  {
+    "id": 11,
+    "question": "Which method removes the first element from an array?",
+    "options": [
+      "shift()",
+      "pop()",
+      "unshift()",
+      "splice()"
+    ],
+    "correctIndex": 0,
+    "explanation": "shift() removes the first element and returns it; pop() removes the last."
+  },
+  {
+    "id": 12,
+    "question": "What does JSON.stringify() do?",
+    "options": [
+      "Converts a JavaScript object to a JSON string",
+      "Parses a JSON string",
+      "Validates JSON",
+      "Converts a string to an object"
+    ],
+    "correctIndex": 0,
+    "explanation": "JSON.stringify({a:1}) converts a JavaScript value to a JSON string."
+  },
+  {
+    "id": 13,
+    "question": "Which keyword is used to handle exceptions?",
+    "options": [
+      "try...catch",
+      "throw...catch",
+      "error...handle",
+      "except"
+    ],
+    "correctIndex": 0,
+    "explanation": "try...catch wraps code that might throw an error and handles it gracefully."
+  },
+  {
+    "id": 14,
+    "question": "What is the scope of a variable declared with let inside a function?",
+    "options": [
+      "Block-scoped",
+      "Function-scoped",
+      "Global",
+      "Module-scoped"
+    ],
+    "correctIndex": 0,
+    "explanation": "let and const are block-scoped (limited to the nearest {} block). var is function-scoped."
+  },
+  {
+    "id": 15,
+    "question": "Which method joins all elements of an array into a string?",
+    "options": [
+      "join()",
+      "concat()",
+      "toString()",
+      "combine()"
+    ],
+    "correctIndex": 0,
+    "explanation": "array.join('-') joins elements with the specified separator (default is comma)."
+  },
+  {
+    "id": 16,
+    "question": "What does the === operator do when comparing null and undefined?",
+    "options": [
+      "Returns false",
+      "Returns true",
+      "Throws an error",
+      "Returns undefined"
+    ],
+    "correctIndex": 0,
+    "explanation": "null === undefined is false because they are different types. null == undefined is true."
+  },
+  {
+    "id": 17,
+    "question": "Which built-in object is used for mathematical operations?",
+    "options": [
+      "Math",
+      "Number",
+      "Calculate",
+      "Arithmetic"
+    ],
+    "correctIndex": 0,
+    "explanation": "Math provides methods like Math.random(), Math.floor(), Math.sqrt(), etc."
+  },
+  {
+    "id": 18,
+    "question": "What is a callback function?",
+    "options": [
+      "A function passed as an argument to another function",
+      "A function that calls itself",
+      "A function that returns null",
+      "A built-in browser function"
+    ],
+    "correctIndex": 0,
+    "explanation": "A callback is a function passed into another function to be executed later."
+  },
+  {
+    "id": 19,
+    "question": "Which DOM property changes the HTML content of an element?",
+    "options": [
+      "innerHTML",
+      "textContent",
+      "value",
+      "html"
+    ],
+    "correctIndex": 0,
+    "explanation": "element.innerHTML gets or sets the HTML markup contained within an element."
+  },
+  {
+    "id": 20,
+    "question": "What is the output of console.log(0.1 + 0.2 === 0.3)?",
+    "options": [
+      "false",
+      "true",
+      "undefined",
+      "Error"
+    ],
+    "correctIndex": 0,
+    "explanation": "Due to floating-point precision issues, 0.1 + 0.2 = 0.30000000000000004, so the comparison is false."
+  }
+]

@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "How many protons are in an atom of sodium (Na) with atomic number 11?",
+    "options": [
+      "11",
+      "12",
+      "23",
+      "10"
+    ],
+    "correctIndex": 0,
+    "explanation": "Atomic number = number of protons. Sodium has atomic number 11, so 11 protons."
+  },
+  {
+    "id": 2,
+    "question": "What is the mass number of an atom with 6 protons and 7 neutrons?",
+    "options": [
+      "13",
+      "6",
+      "7",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mass number = protons + neutrons = 6 + 7 = 13."
+  },
+  {
+    "id": 3,
+    "question": "Which subatomic particle has a negative charge?",
+    "options": [
+      "Electron",
+      "Proton",
+      "Neutron",
+      "Nucleon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Electrons carry a negative charge (-1). Protons are positive, neutrons are neutral."
+  },
+  {
+    "id": 4,
+    "question": "What is the electronic configuration of carbon (atomic number 6)?",
+    "options": [
+      "2,4",
+      "2,6",
+      "2,8",
+      "1,5"
+    ],
+    "correctIndex": 0,
+    "explanation": "Carbon has 6 electrons: 2 in the first shell, 4 in the second. Configuration: 2,4."
+  },
+  {
+    "id": 5,
+    "question": "Which element is in Group 1 and Period 3 of the Periodic Table?",
+    "options": [
+      "Sodium",
+      "Magnesium",
+      "Aluminium",
+      "Potassium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sodium (Na) is in Group 1 (alkali metals) and Period 3."
+  },
+  {
+    "id": 6,
+    "question": "What is the valency of oxygen?",
+    "options": [
+      "2",
+      "1",
+      "3",
+      "4"
+    ],
+    "correctIndex": 0,
+    "explanation": "Oxygen has 6 valence electrons and needs 2 more to complete its octet, so valency = 2."
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is an isotope of hydrogen?",
+    "options": [
+      "Deuterium",
+      "Helium",
+      "Lithium",
+      "Neon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Deuterium is an isotope of hydrogen with 1 proton and 1 neutron."
+  },
+  {
+    "id": 8,
+    "question": "What is the maximum number of electrons in the third shell (M-shell)?",
+    "options": [
+      "18",
+      "8",
+      "2",
+      "32"
+    ],
+    "correctIndex": 0,
+    "explanation": "The maximum number of electrons in a shell is 2n². For n=3: 2(9) = 18."
+  },
+  {
+    "id": 9,
+    "question": "Which scientist proposed the planetary model of the atom?",
+    "options": [
+      "Rutherford",
+      "Bohr",
+      "Thomson",
+      "Dalton"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rutherford proposed the nuclear/planetary model with electrons orbiting a dense nucleus."
+  },
+  {
+    "id": 10,
+    "question": "What is the relative atomic mass of an element?",
+    "options": [
+      "Average mass of isotopes compared to ¹²C",
+      "Mass of one atom in grams",
+      "Number of protons plus neutrons",
+      "Mass of the most abundant isotope"
+    ],
+    "correctIndex": 0,
+    "explanation": "Relative atomic mass is the weighted average mass of naturally occurring isotopes on a scale where ¹²C = 12."
+  },
+  {
+    "id": 11,
+    "question": "Which group in the Periodic Table contains the halogens?",
+    "options": [
+      "Group 7",
+      "Group 1",
+      "Group 2",
+      "Group 0"
+    ],
+    "correctIndex": 0,
+    "explanation": "Halogens (F, Cl, Br, I, At) are in Group 7 (or Group 17 in modern IUPAC)."
+  },
+  {
+    "id": 12,
+    "question": "An atom has 17 electrons. How many electrons are in its outermost shell?",
+    "options": [
+      "7",
+      "2",
+      "8",
+      "17"
+    ],
+    "correctIndex": 0,
+    "explanation": "Configuration: 2,8,7. The outermost shell has 7 electrons."
+  },
+  {
+    "id": 13,
+    "question": "What type of bond is formed between sodium and chlorine?",
+    "options": [
+      "Ionic",
+      "Covalent",
+      "Metallic",
+      "Hydrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Na transfers an electron to Cl, forming Na⁺ and Cl⁻ ions held by electrostatic attraction — an ionic bond."
+  },
+  {
+    "id": 14,
+    "question": "Which of the following compounds is covalent?",
+    "options": [
+      "CH₄",
+      "NaCl",
+      "MgO",
+      "CaF₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Methane (CH₄) consists of shared electron pairs between C and H — a covalent compound."
+  },
+  {
+    "id": 15,
+    "question": "What is the shape of a methane (CH₄) molecule?",
+    "options": [
+      "Tetrahedral",
+      "Linear",
+      "Trigonal planar",
+      "Bent"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₄ has 4 bonding pairs around carbon with no lone pairs, giving a tetrahedral shape (109.5°)."
+  },
+  {
+    "id": 16,
+    "question": "In a metallic bond, electrons are:",
+    "options": [
+      "Delocalized throughout the structure",
+      "Shared between two atoms only",
+      "Transferred completely",
+      "Fixed in position"
+    ],
+    "correctIndex": 0,
+    "explanation": "In metallic bonding, valence electrons are delocalized and free to move throughout the metal lattice."
+  },
+  {
+    "id": 17,
+    "question": "What type of bond exists between hydrogen atoms in a hydrogen molecule (H₂)?",
+    "options": [
+      "Single covalent",
+      "Double covalent",
+      "Ionic",
+      "Metallic"
+    ],
+    "correctIndex": 0,
+    "explanation": "H₂ has one shared pair of electrons between the two hydrogen atoms — a single covalent bond."
+  },
+  {
+    "id": 18,
+    "question": "Which force is responsible for the high boiling point of water?",
+    "options": [
+      "Hydrogen bonding",
+      "Ionic bonding",
+      "Covalent bonding",
+      "Van der Waals forces"
+    ],
+    "correctIndex": 0,
+    "explanation": "Water molecules are held together by strong hydrogen bonds, requiring more energy to separate them."
+  },
+  {
+    "id": 19,
+    "question": "What is the bond angle in a water molecule?",
+    "options": [
+      "104.5°",
+      "109.5°",
+      "120°",
+      "180°"
+    ],
+    "correctIndex": 0,
+    "explanation": "Water has 2 bonding pairs and 2 lone pairs on oxygen, compressing the bond angle to about 104.5°."
+  },
+  {
+    "id": 20,
+    "question": "Which element forms a giant covalent structure?",
+    "options": [
+      "Carbon (diamond)",
+      "Sodium",
+      "Chlorine",
+      "Magnesium"
+    ],
+    "correctIndex": 0,
+    "explanation": "Diamond is a giant covalent structure where each carbon atom bonds to 4 others in a rigid 3D network."
+  },
+  {
+    "id": 21,
+    "question": "What is the oxidation number of oxygen in H₂O?",
+    "options": [
+      "-2",
+      "-1",
+      "+2",
+      "0"
+    ],
+    "correctIndex": 0,
+    "explanation": "In most compounds, oxygen has an oxidation number of -2. In H₂O: 2(+1) + x = 0 → x = -2."
+  },
+  {
+    "id": 22,
+    "question": "Which compound contains both ionic and covalent bonds?",
+    "options": [
+      "NaOH",
+      "NaCl",
+      "H₂O",
+      "CO₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "NaOH has ionic bonding between Na⁺ and OH⁻, and covalent bonding within the OH⁻ ion."
+  },
+  {
+    "id": 23,
+    "question": "What is the molar mass of H₂O?",
+    "options": [
+      "18 g/mol",
+      "16 g/mol",
+      "20 g/mol",
+      "10 g/mol"
+    ],
+    "correctIndex": 0,
+    "explanation": "H₂O = 2(1) + 16 = 18 g/mol."
+  },
+  {
+    "id": 24,
+    "question": "How many moles are in 36 g of water (H₂O)?",
+    "options": [
+      "2 mol",
+      "3 mol",
+      "1 mol",
+      "4 mol"
+    ],
+    "correctIndex": 0,
+    "explanation": "Molar mass of H₂O = 18 g/mol. Moles = 36/18 = 2 mol."
+  },
+  {
+    "id": 25,
+    "question": "What volume does 1 mole of an ideal gas occupy at STP?",
+    "options": [
+      "22.4 dm³",
+      "24.0 dm³",
+      "1.0 dm³",
+      "44.8 dm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "At Standard Temperature and Pressure (STP), 1 mole of any ideal gas occupies 22.4 dm³."
+  },
+  {
+    "id": 26,
+    "question": "Calculate the mass of 0.5 moles of CaCO₃. (Ca=40, C=12, O=16)",
+    "options": [
+      "50 g",
+      "100 g",
+      "25 g",
+      "200 g"
+    ],
+    "correctIndex": 0,
+    "explanation": "Molar mass CaCO₃ = 40+12+3(16) = 100 g/mol. Mass = 0.5 × 100 = 50 g."
+  },
+  {
+    "id": 27,
+    "question": "What is the empirical formula of a compound containing 40% carbon, 6.7% hydrogen, and 53.3% oxygen?",
+    "options": [
+      "CH₂O",
+      "C₂H₄O₂",
+      "CH₄O",
+      "C₆H₁₂O₆"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mole ratios: C: 40/12=3.33, H: 6.7/1=6.7, O: 53.3/16=3.33. Ratio ≈ 1:2:1. Empirical formula = CH₂O."
+  },
+  {
+    "id": 28,
+    "question": "How many atoms are in 2 moles of CO₂?",
+    "options": [
+      "3.6 × 10²⁴",
+      "6.02 × 10²³",
+      "1.2 × 10²⁴",
+      "2.4 × 10²⁴"
+    ],
+    "correctIndex": 0,
+    "explanation": "1 mole CO₂ = 3 moles of atoms (1 C + 2 O). 2 moles CO₂ = 6 moles atoms. 6 × 6.02×10²³ = 3.6×10²⁴."
+  },
+  {
+    "id": 29,
+    "question": "What is the concentration in mol/dm³ of a solution containing 0.1 moles in 500 cm³?",
+    "options": [
+      "0.2 mol/dm³",
+      "0.1 mol/dm³",
+      "0.05 mol/dm³",
+      "0.5 mol/dm³"
+    ],
+    "correctIndex": 0,
+    "explanation": "500 cm³ = 0.5 dm³. Concentration = 0.1/0.5 = 0.2 mol/dm³."
+  },
+  {
+    "id": 30,
+    "question": "In the reaction 2H₂ + O₂ → 2H₂O, how many moles of water are produced from 4 moles of H₂?",
+    "options": [
+      "4 mol",
+      "2 mol",
+      "8 mol",
+      "1 mol"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mole ratio H₂:H₂O = 2:2 = 1:1. So 4 moles H₂ produces 4 moles H₂O."
+  },
+  {
+    "id": 31,
+    "question": "What is the percentage by mass of oxygen in CaO? (Ca=40, O=16)",
+    "options": [
+      "28.6%",
+      "40%",
+      "71.4%",
+      "56%"
+    ],
+    "correctIndex": 0,
+    "explanation": "Molar mass CaO = 56. %O = (16/56) × 100 = 28.6%."
+  },
+  {
+    "id": 32,
+    "question": "How many molecules are in 0.25 moles of a substance?",
+    "options": [
+      "1.5 × 10²³",
+      "6.02 × 10²³",
+      "3.01 × 10²³",
+      "2.4 × 10²³"
+    ],
+    "correctIndex": 0,
+    "explanation": "0.25 × 6.02×10²³ = 1.505×10²³ ≈ 1.5 × 10²³."
+  },
+  {
+    "id": 33,
+    "question": "What mass of NaOH is needed to make 250 cm³ of 0.4 mol/dm³ solution? (Na=23, O=16, H=1)",
+    "options": [
+      "4 g",
+      "8 g",
+      "2 g",
+      "10 g"
+    ],
+    "correctIndex": 0,
+    "explanation": "Molar mass NaOH = 40 g/mol. Moles needed = 0.4 × 0.25 = 0.1 mol. Mass = 0.1 × 40 = 4 g."
+  },
+  {
+    "id": 34,
+    "question": "The molecular formula of a compound is C₄H₈O₂. What is its empirical formula?",
+    "options": [
+      "C₂H₄O",
+      "C₄H₈O₂",
+      "CH₂O",
+      "C₂H₄O₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Divide by 2: C₂H₄O."
+  },
+  {
+    "id": 35,
+    "question": "What is the pH of a neutral solution at 25°C?",
+    "options": [
+      "7",
+      "0",
+      "14",
+      "1"
+    ],
+    "correctIndex": 0,
+    "explanation": "At 25°C, pure water has pH = 7, which is neutral."
+  },
+  {
+    "id": 36,
+    "question": "Which of the following is a strong acid?",
+    "options": [
+      "HCl",
+      "CH₃COOH",
+      "H₂CO₃",
+      "H₂O"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydrochloric acid (HCl) is a strong acid that dissociates completely in water."
+  },
+  {
+    "id": 37,
+    "question": "What is the product of the reaction between an acid and a base?",
+    "options": [
+      "Salt and water",
+      "Salt and hydrogen",
+      "Salt and carbon dioxide",
+      "Water and hydrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Acid + Base → Salt + Water (neutralization reaction)."
+  },
+  {
+    "id": 38,
+    "question": "Which indicator turns red in acid and blue in alkali?",
+    "options": [
+      "Litmus",
+      "Methyl orange",
+      "Phenolphthalein",
+      "Starch"
+    ],
+    "correctIndex": 0,
+    "explanation": "Litmus is red in acid and blue in alkali (base)."
+  },
+  {
+    "id": 39,
+    "question": "What is the chemical name for common salt?",
+    "options": [
+      "Sodium chloride",
+      "Sodium carbonate",
+      "Sodium hydroxide",
+      "Sodium sulphate"
+    ],
+    "correctIndex": 0,
+    "explanation": "Common salt is sodium chloride (NaCl)."
+  },
+  {
+    "id": 40,
+    "question": "Which gas is produced when a metal carbonate reacts with an acid?",
+    "options": [
+      "Carbon dioxide",
+      "Hydrogen",
+      "Oxygen",
+      "Nitrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Metal carbonate + Acid → Salt + Water + Carbon dioxide."
+  },
+  {
+    "id": 41,
+    "question": "What is the pH of a 0.01 mol/dm³ HCl solution?",
+    "options": [
+      "2",
+      "1",
+      "0.01",
+      "12"
+    ],
+    "correctIndex": 0,
+    "explanation": "pH = -log[H⁺] = -log(0.01) = -log(10⁻²) = 2."
+  },
+  {
+    "id": 42,
+    "question": "Which salt is formed from the reaction of H₂SO₄ and NaOH?",
+    "options": [
+      "Na₂SO₄",
+      "NaCl",
+      "NaHSO₄",
+      "Na₂CO₃"
+    ],
+    "correctIndex": 0,
+    "explanation": "H₂SO₄ + 2NaOH → Na₂SO₄ + 2H₂O. Sodium sulphate is formed."
+  },
+  {
+    "id": 43,
+    "question": "What colour does phenolphthalein turn in alkaline solution?",
+    "options": [
+      "Pink",
+      "Red",
+      "Blue",
+      "Colourless"
+    ],
+    "correctIndex": 0,
+    "explanation": "Phenolphthalein is colourless in acid and pink in alkaline solution."
+  },
+  {
+    "id": 44,
+    "question": "Which of the following is a weak base?",
+    "options": [
+      "NH₃",
+      "NaOH",
+      "KOH",
+      "Ca(OH)₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ammonia (NH₃) is a weak base that partially dissociates in water."
+  },
+  {
+    "id": 45,
+    "question": "In the reaction Zn + Cu²⁺ → Zn²⁺ + Cu, which species is oxidized?",
+    "options": [
+      "Zn",
+      "Cu²⁺",
+      "Cu",
+      "Zn²⁺"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zn loses 2 electrons to become Zn²⁺. Loss of electrons = oxidation."
+  },
+  {
+    "id": 46,
+    "question": "What is the oxidation number of Mn in KMnO₄?",
+    "options": [
+      "+7",
+      "+4",
+      "+6",
+      "+2"
+    ],
+    "correctIndex": 0,
+    "explanation": "K = +1, each O = -2. So +1 + x + 4(-2) = 0 → x = +7."
+  },
+  {
+    "id": 47,
+    "question": "In electrolysis, which electrode do cations move towards?",
+    "options": [
+      "Cathode",
+      "Anode",
+      "Both electrodes",
+      "Neither electrode"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cations (positive ions) are attracted to the cathode (negative electrode)."
+  },
+  {
+    "id": 48,
+    "question": "What is produced at the anode during the electrolysis of dilute H₂SO₄?",
+    "options": [
+      "Oxygen",
+      "Hydrogen",
+      "Sulphur",
+      "Sulphur dioxide"
+    ],
+    "correctIndex": 0,
+    "explanation": "At the anode, OH⁻ ions are discharged preferentially: 4OH⁻ → 2H₂O + O₂ + 4e⁻."
+  },
+  {
+    "id": 49,
+    "question": "Which metal is used as the standard hydrogen electrode?",
+    "options": [
+      "Platinum",
+      "Copper",
+      "Zinc",
+      "Gold"
+    ],
+    "correctIndex": 0,
+    "explanation": "Platinum is used as the electrode material in the standard hydrogen electrode."
+  },
+  {
+    "id": 50,
+    "question": "What is the oxidation number of sulfur in H₂SO₄?",
+    "options": [
+      "+6",
+      "+4",
+      "+2",
+      "-2"
+    ],
+    "correctIndex": 0,
+    "explanation": "2(+1) + x + 4(-2) = 0 → x = +6."
+  },
+  {
+    "id": 51,
+    "question": "During the electrolysis of molten NaCl, what is produced at the cathode?",
+    "options": [
+      "Sodium",
+      "Chlorine",
+      "Hydrogen",
+      "Oxygen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Na⁺ ions are reduced at the cathode: Na⁺ + e⁻ → Na."
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is a redox reaction?",
+    "options": [
+      "2Mg + O₂ → 2MgO",
+      "HCl + NaOH → NaCl + H₂O",
+      "AgNO₃ + NaCl → AgCl + NaNO₃",
+      "CaCO₃ → CaO + CO₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Mg is oxidized (0 → +2) and O₂ is reduced (0 → -2). This is a redox reaction."
+  },
+  {
+    "id": 53,
+    "question": "What is the function of a salt bridge in an electrochemical cell?",
+    "options": [
+      "To maintain electrical neutrality",
+      "To provide electrons",
+      "To act as an electrode",
+      "To increase voltage"
+    ],
+    "correctIndex": 0,
+    "explanation": "The salt bridge allows ion migration to maintain electrical neutrality in the half-cells."
+  },
+  {
+    "id": 54,
+    "question": "If E°cell is positive, the reaction is:",
+    "options": [
+      "Spontaneous",
+      "Non-spontaneous",
+      "At equilibrium",
+      "Endothermic"
+    ],
+    "correctIndex": 0,
+    "explanation": "A positive E°cell indicates a spontaneous redox reaction under standard conditions."
+  },
+  {
+    "id": 55,
+    "question": "What is the general formula for alkanes?",
+    "options": [
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₋₂",
+      "CₙHₙ"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alkanes are saturated hydrocarbons with general formula CₙH₂ₙ₊₂."
+  },
+  {
+    "id": 56,
+    "question": "Which functional group characterizes alcohols?",
+    "options": [
+      "-OH",
+      "-COOH",
+      "-CHO",
+      "-NH₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alcohols contain the hydroxyl (-OH) functional group."
+  },
+  {
+    "id": 57,
+    "question": "What is the IUPAC name of CH₃CH₂CH₃?",
+    "options": [
+      "Propane",
+      "Ethane",
+      "Butane",
+      "Methane"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₃CH₂CH₃ has 3 carbon atoms, so it is propane."
+  },
+  {
+    "id": 58,
+    "question": "Which type of bond is present in ethene (C₂H₄)?",
+    "options": [
+      "C=C double bond",
+      "C≡C triple bond",
+      "C-C single bond only",
+      "Ionic bond"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ethene has a carbon-carbon double bond (C=C) and is an alkene."
+  },
+  {
+    "id": 59,
+    "question": "What is the product of complete combustion of methane?",
+    "options": [
+      "CO₂ + H₂O",
+      "CO + H₂O",
+      "C + H₂O",
+      "CO₂ + H₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "CH₄ + 2O₂ → CO₂ + 2H₂O. Complete combustion produces CO₂ and H₂O."
+  },
+  {
+    "id": 60,
+    "question": "Which test is used to distinguish between saturated and unsaturated hydrocarbons?",
+    "options": [
+      "Bromine water test",
+      "Litmus test",
+      "Flame test",
+      "Precipitation test"
+    ],
+    "correctIndex": 0,
+    "explanation": "Unsaturated hydrocarbons decolorize bromine water; saturated hydrocarbons do not."
+  },
+  {
+    "id": 61,
+    "question": "What is the general formula for alkenes?",
+    "options": [
+      "CₙH₂ₙ",
+      "CₙH₂ₙ₊₂",
+      "CₙH₂ₙ₋₂",
+      "CₙH₂ₙ₋₆"
+    ],
+    "correctIndex": 0,
+    "explanation": "Alkenes have one double bond with general formula CₙH₂ₙ."
+  },
+  {
+    "id": 62,
+    "question": "Which compound is an isomer of butane?",
+    "options": [
+      "2-methylpropane",
+      "Propane",
+      "Pentane",
+      "Ethene"
+    ],
+    "correctIndex": 0,
+    "explanation": "2-methylpropane (isobutane) has the same molecular formula C₄H₁₀ but different structure."
+  },
+  {
+    "id": 63,
+    "question": "What type of reaction converts an alkene to an alkane?",
+    "options": [
+      "Hydrogenation",
+      "Oxidation",
+      "Dehydration",
+      "Substitution"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydrogenation adds H₂ across the double bond to convert an alkene to an alkane."
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is a carboxylic acid?",
+    "options": [
+      "CH₃COOH",
+      "CH₃CHO",
+      "CH₃OH",
+      "CH₃OCH₃"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ethanoic acid (CH₃COOH) contains the -COOH functional group."
+  },
+  {
+    "id": 65,
+    "question": "What is the product when ethanol is oxidized with acidified K₂Cr₂O₇?",
+    "options": [
+      "Ethanoic acid",
+      "Ethanal",
+      "Ethene",
+      "Ethane"
+    ],
+    "correctIndex": 0,
+    "explanation": "Strong oxidation of ethanol with acidified K₂Cr₂O₇ produces ethanoic acid."
+  },
+  {
+    "id": 66,
+    "question": "Which polymer is formed from ethene monomers?",
+    "options": [
+      "Polyethene",
+      "Polypropene",
+      "PVC",
+      "Nylon"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ethene (C₂H₄) polymerizes to form polyethene (polyethylene)."
+  },
+  {
+    "id": 67,
+    "question": "Which method is used to extract iron from its ore in the blast furnace?",
+    "options": [
+      "Reduction with carbon",
+      "Electrolysis",
+      "Oxidation",
+      "Displacement"
+    ],
+    "correctIndex": 0,
+    "explanation": "Iron oxide is reduced by carbon (coke) in the blast furnace: Fe₂O₃ + 3CO → 2Fe + 3CO₂."
+  },
+  {
+    "id": 68,
+    "question": "What is the main ore of aluminium?",
+    "options": [
+      "Bauxite",
+      "Haematite",
+      "Magnetite",
+      "Cryolite"
+    ],
+    "correctIndex": 0,
+    "explanation": "Bauxite (Al₂O₃·2H₂O) is the main ore of aluminium."
+  },
+  {
+    "id": 69,
+    "question": "Which gas is produced when a metal reacts with dilute acid?",
+    "options": [
+      "Hydrogen",
+      "Oxygen",
+      "Carbon dioxide",
+      "Nitrogen"
+    ],
+    "correctIndex": 0,
+    "explanation": "Metal + Dilute acid → Salt + Hydrogen gas."
+  },
+  {
+    "id": 70,
+    "question": "What is the alloy of copper and zinc called?",
+    "options": [
+      "Brass",
+      "Bronze",
+      "Steel",
+      "Duralumin"
+    ],
+    "correctIndex": 0,
+    "explanation": "Brass is an alloy of copper and zinc."
+  },
+  {
+    "id": 71,
+    "question": "Which metal is the most reactive among Zn, Fe, Cu, Ag?",
+    "options": [
+      "Zinc",
+      "Iron",
+      "Copper",
+      "Silver"
+    ],
+    "correctIndex": 0,
+    "explanation": "Zinc is highest in the reactivity series among these metals."
+  },
+  {
+    "id": 72,
+    "question": "What is the purpose of cryolite in the extraction of aluminium?",
+    "options": [
+      "To lower the melting point",
+      "To increase purity",
+      "To act as a reducing agent",
+      "To remove impurities"
+    ],
+    "correctIndex": 0,
+    "explanation": "Cryolite (Na₃AlF₆) lowers the melting point of Al₂O₃ from about 2050°C to around 900°C, saving energy."
+  },
+  {
+    "id": 73,
+    "question": "Which non-metal is a good conductor of electricity?",
+    "options": [
+      "Graphite",
+      "Sulphur",
+      "Phosphorus",
+      "Chlorine"
+    ],
+    "correctIndex": 0,
+    "explanation": "Graphite (a form of carbon) has delocalized electrons and conducts electricity."
+  },
+  {
+    "id": 74,
+    "question": "What is the product when calcium burns in oxygen?",
+    "options": [
+      "Calcium oxide",
+      "Calcium hydroxide",
+      "Calcium carbonate",
+      "Calcium chloride"
+    ],
+    "correctIndex": 0,
+    "explanation": "2Ca + O₂ → 2CaO. Calcium oxide is formed."
+  },
+  {
+    "id": 75,
+    "question": "Which metal reacts vigorously with cold water?",
+    "options": [
+      "Sodium",
+      "Iron",
+      "Zinc",
+      "Copper"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sodium reacts vigorously with cold water to produce NaOH and H₂ gas."
+  },
+  {
+    "id": 76,
+    "question": "What is the chemical formula of rust?",
+    "options": [
+      "Fe₂O₃·xH₂O",
+      "FeO",
+      "Fe₃O₄",
+      "Fe(OH)₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Rust is hydrated iron(III) oxide with formula Fe₂O₃·xH₂O."
+  },
+  {
+    "id": 77,
+    "question": "Which of the following is an exothermic reaction?",
+    "options": [
+      "Neutralization",
+      "Photosynthesis",
+      "Thermal decomposition of CaCO₃",
+      "Melting of ice"
+    ],
+    "correctIndex": 0,
+    "explanation": "Neutralization reactions release heat energy to the surroundings — they are exothermic."
+  },
+  {
+    "id": 78,
+    "question": "What does a catalyst do in a chemical reaction?",
+    "options": [
+      "Increases the rate without being consumed",
+      "Increases the yield",
+      "Changes the products",
+      "Provides energy"
+    ],
+    "correctIndex": 0,
+    "explanation": "A catalyst speeds up a reaction by lowering activation energy and is not consumed."
+  },
+  {
+    "id": 79,
+    "question": "How does increasing temperature affect the rate of reaction?",
+    "options": [
+      "Increases it",
+      "Decreases it",
+      "No effect",
+      "Stops it"
+    ],
+    "correctIndex": 0,
+    "explanation": "Higher temperature increases kinetic energy and collision frequency, increasing reaction rate."
+  },
+  {
+    "id": 80,
+    "question": "What is activation energy?",
+    "options": [
+      "Minimum energy needed for a reaction to occur",
+      "Total energy released",
+      "Energy of products",
+      "Energy of catalyst"
+    ],
+    "correctIndex": 0,
+    "explanation": "Activation energy is the minimum energy required for reactant particles to collide successfully."
+  },
+  {
+    "id": 81,
+    "question": "Which factor does NOT increase the rate of a reaction?",
+    "options": [
+      "Decreasing temperature",
+      "Increasing concentration",
+      "Increasing surface area",
+      "Adding a catalyst"
+    ],
+    "correctIndex": 0,
+    "explanation": "Decreasing temperature slows down particles and reduces the reaction rate."
+  },
+  {
+    "id": 82,
+    "question": "In an endothermic reaction, the enthalpy change (ΔH) is:",
+    "options": [
+      "Positive",
+      "Negative",
+      "Zero",
+      "Variable"
+    ],
+    "correctIndex": 0,
+    "explanation": "Endothermic reactions absorb heat from surroundings, so ΔH > 0 (positive)."
+  },
+  {
+    "id": 83,
+    "question": "What happens to the rate of reaction when the concentration of reactants is doubled?",
+    "options": [
+      "Usually increases",
+      "Usually decreases",
+      "Stays the same",
+      "Becomes zero"
+    ],
+    "correctIndex": 0,
+    "explanation": "Higher concentration means more particles per unit volume, leading to more frequent collisions."
+  },
+  {
+    "id": 84,
+    "question": "Which curve on a reaction rate graph represents a catalyzed reaction?",
+    "options": [
+      "The one that reaches completion faster",
+      "The one with lower final yield",
+      "The one that is horizontal",
+      "The one with a steeper slope at the end"
+    ],
+    "correctIndex": 0,
+    "explanation": "A catalyst makes the reaction reach completion faster, so the curve is steeper initially and plateaus earlier."
+  },
+  {
+    "id": 85,
+    "question": "What symbol indicates a reversible reaction?",
+    "options": [
+      "⇌",
+      "→",
+      "←",
+      "↔"
+    ],
+    "correctIndex": 0,
+    "explanation": "The double arrow (⇌) indicates that a reaction can proceed in both directions."
+  },
+  {
+    "id": 86,
+    "question": "According to Le Chatelier's principle, if pressure is increased on N₂ + 3H₂ ⇌ 2NH₃, the equilibrium shifts:",
+    "options": [
+      "To the right (fewer moles)",
+      "To the left (more moles)",
+      "No shift",
+      "Depends on temperature"
+    ],
+    "correctIndex": 0,
+    "explanation": "Increasing pressure shifts equilibrium toward the side with fewer gas moles (right: 4 → 2 moles)."
+  },
+  {
+    "id": 87,
+    "question": "For the equilibrium 2SO₂ + O₂ ⇌ 2SO₃, what happens if O₂ is added?",
+    "options": [
+      "More SO₃ is formed",
+      "Less SO₃ is formed",
+      "No change",
+      "SO₂ increases"
+    ],
+    "correctIndex": 0,
+    "explanation": "Adding a reactant shifts equilibrium to the right (products) to oppose the change."
+  },
+  {
+    "id": 88,
+    "question": "What happens to the equilibrium position of an exothermic reaction when temperature is increased?",
+    "options": [
+      "Shifts left (toward reactants)",
+      "Shifts right (toward products)",
+      "No change",
+      "Depends on pressure"
+    ],
+    "correctIndex": 0,
+    "explanation": "For exothermic reactions, increasing temperature shifts equilibrium left (toward reactants) to absorb heat."
+  },
+  {
+    "id": 89,
+    "question": "Which of the following does NOT affect the position of equilibrium?",
+    "options": [
+      "Catalyst",
+      "Temperature",
+      "Concentration",
+      "Pressure"
+    ],
+    "correctIndex": 0,
+    "explanation": "A catalyst speeds up both forward and reverse reactions equally, so it does not shift equilibrium position."
+  },
+  {
+    "id": 90,
+    "question": "In the Haber process, what is the optimal temperature compromise?",
+    "options": [
+      "450°C",
+      "25°C",
+      "1000°C",
+      "200°C"
+    ],
+    "correctIndex": 0,
+    "explanation": "450°C is a compromise: lower favors yield (exothermic) but is too slow; higher is faster but reduces yield."
+  },
+  {
+    "id": 91,
+    "question": "What is the equilibrium constant Kc for aA + bB ⇌ cC + dD?",
+    "options": [
+      "[C]^c[D]^d / [A]^a[B]^b",
+      "[A]^a[B]^b / [C]^c[D]^d",
+      "[C][D] / [A][B]",
+      "[A][B] / [C][D]"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kc = [products]^coefficients / [reactants]^coefficients."
+  },
+  {
+    "id": 92,
+    "question": "If Kc > 1 for a reaction, at equilibrium:",
+    "options": [
+      "Products are favored",
+      "Reactants are favored",
+      "Equal amounts of both",
+      "No reaction occurs"
+    ],
+    "correctIndex": 0,
+    "explanation": "Kc > 1 means the concentration of products is greater than reactants at equilibrium."
+  },
+  {
+    "id": 93,
+    "question": "What is the main raw material for the Contact Process?",
+    "options": [
+      "Sulphur dioxide",
+      "Nitrogen",
+      "Hydrogen",
+      "Methane"
+    ],
+    "correctIndex": 0,
+    "explanation": "The Contact Process manufactures sulphuric acid from sulphur dioxide (SO₂)."
+  },
+  {
+    "id": 94,
+    "question": "What is the catalyst used in the Haber process?",
+    "options": [
+      "Iron",
+      "Platinum",
+      "Nickel",
+      "Vanadium(V) oxide"
+    ],
+    "correctIndex": 0,
+    "explanation": "Finely divided iron is used as the catalyst in the Haber process for ammonia synthesis."
+  },
+  {
+    "id": 95,
+    "question": "Which gas is responsible for the greenhouse effect?",
+    "options": [
+      "CO₂",
+      "O₂",
+      "N₂",
+      "Ar"
+    ],
+    "correctIndex": 0,
+    "explanation": "Carbon dioxide (CO₂) is the main greenhouse gas contributing to global warming."
+  },
+  {
+    "id": 96,
+    "question": "What is the main cause of acid rain?",
+    "options": [
+      "SO₂ and NOₓ",
+      "CO₂",
+      "O₃",
+      "CH₄"
+    ],
+    "correctIndex": 0,
+    "explanation": "Sulphur dioxide and nitrogen oxides dissolve in rainwater to form acids, causing acid rain."
+  },
+  {
+    "id": 97,
+    "question": "Which process is used to convert vegetable oils to margarine?",
+    "options": [
+      "Hydrogenation",
+      "Oxidation",
+      "Fermentation",
+      "Esterification"
+    ],
+    "correctIndex": 0,
+    "explanation": "Hydrogenation adds hydrogen across double bonds in unsaturated oils to make solid margarine."
+  },
+  {
+    "id": 98,
+    "question": "What is the chemical formula of ozone?",
+    "options": [
+      "O₃",
+      "O₂",
+      "O",
+      "O₄"
+    ],
+    "correctIndex": 0,
+    "explanation": "Ozone is an allotrope of oxygen with formula O₃."
+  },
+  {
+    "id": 99,
+    "question": "Which pollutant is associated with the depletion of the ozone layer?",
+    "options": [
+      "CFCs",
+      "CO₂",
+      "SO₂",
+      "NO₂"
+    ],
+    "correctIndex": 0,
+    "explanation": "Chlorofluorocarbons (CFCs) release chlorine atoms that catalyze ozone destruction."
+  },
+  {
+    "id": 100,
+    "question": "What is the main product of the fermentation of glucose?",
+    "options": [
+      "Ethanol and CO₂",
+      "Methane and water",
+      "Ethanoic acid",
+      "Propanol"
+    ],
+    "correctIndex": 0,
+    "explanation": "C₆H₁₂O₆ → 2C₂H₅OH + 2CO₂. Fermentation of glucose produces ethanol and carbon dioxide."
+  }
+]
